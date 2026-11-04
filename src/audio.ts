@@ -3,7 +3,13 @@ type Voice={source:AudioBufferSourceNode;gain:GainNode;volume:number;retiring:bo
 export class AudioEngine {
  context?:AudioContext; master?:GainNode; voices=new Map<string,Voice>(); cache=new Map<string,AudioBuffer>(); pending=new Map<string,Promise<AudioBuffer>>(); epoch=0; tokens=new Map<string,number>(); muted=false;
  constructor(private catalog:Track[],private onSuspended:()=>void=()=>{}){}
- async unlock(){if(!this.context){this.context=new AudioContext();this.master=this.context.createGain();this.master.gain.value=.65;const compressor=this.context.createDynamicsCompressor();compressor.threshold.value=-8;compressor.knee.value=12;compressor.ratio.value=8;this.master.connect(compressor);compressor.connect(this.context.destination);this.context.onstatechange=()=>{if(this.context?.state==='suspended')this.onSuspended()}}if(this.context.state==='suspended')await this.context.resume();if(this.context.state!=='running')throw Error('Pulsa Reanudar para activar el audio.');}
+ private configurePlaybackSession(){
+  // iOS routes Web Audio as ambient audio by default, which obeys the silent
+  // switch even while AudioContext reports running. Request media playback.
+  const session=(globalThis.navigator as Navigator & {audioSession?:{type:string}} | undefined)?.audioSession;
+  if(session){try{session.type='playback'}catch{/* Optional API; other browsers use their default media route. */}}
+ }
+ async unlock(){this.configurePlaybackSession();if(!this.context){this.context=new AudioContext();this.master=this.context.createGain();this.master.gain.value=.65;const compressor=this.context.createDynamicsCompressor();compressor.threshold.value=-8;compressor.knee.value=12;compressor.ratio.value=8;this.master.connect(compressor);compressor.connect(this.context.destination);this.context.onstatechange=()=>{if(this.context&&this.context.state!=='running'&&this.context.state!=='closed')this.onSuspended()}}if(this.context.state!=='running'&&this.context.state!=='closed')await this.context.resume();if(this.context.state!=='running'){this.onSuspended();throw Error('Pulsa Reanudar para activar el audio.');}}
  setMaster(value:number){if(this.master&&this.context)this.ramp(this.master.gain,value,.04)}
  private ramp(param:AudioParam,value:number,seconds:number){const now=this.context!.currentTime;if(typeof param.cancelAndHoldAtTime==='function')param.cancelAndHoldAtTime(now);else{const previous=param.value;param.cancelScheduledValues(now);param.setValueAtTime(previous,now)}param.linearRampToValueAtTime(value,now+seconds)}
  private trim(){let bytes=[...this.cache.values()].reduce((sum,b)=>sum+b.length*b.numberOfChannels*4,0);for(const [id,b] of this.cache){if(bytes<=128*1024*1024)break;if(!this.voices.has(id)){this.cache.delete(id);bytes-=b.length*b.numberOfChannels*4}}}

@@ -19,3 +19,19 @@ test('shared voices keep their playback position across scenes',async()=>{const 
 test('failed destination preserves current sources',async()=>{const e=engine();await e.play('birds',.4);const voice=e.voices.get('birds');globalThis.fetch=async()=>({ok:false}) as Response;await assert.rejects(e.scene([{trackId:'stream',volume:.3}],.7));assert.equal(e.voices.get('birds'),voice);assert.equal(voice?.retiring,false);e.stopAll()});
 test('only latest requested scene can be applied',async()=>{const d=defer();globalThis.fetch=()=>d.promise;const e=engine();const first=e.scene([{trackId:'birds',volume:.4}],.7);const second=e.scene([{trackId:'stream',volume:.3}],.7);d.resolve();assert.equal(await first,false);assert.equal(await second,true);assert.equal(e.voices.has('birds'),false);assert.equal(e.voices.has('stream'),true);e.stopAll()});
 test('master gain changes preserve per-track volume',async()=>{const e=engine();await e.play('birds',.4);e.setMaster(0);assert.equal(e.voices.get('birds')!.volume,.4);assert.equal(e.master!.gain.value,0);e.stopAll()});
+
+test('requests an iOS playback session before starting audio',async()=>{
+ const session={type:'ambient'};
+ Object.defineProperty(globalThis.navigator,'audioSession',{configurable:true,value:session});
+ try{const e=engine();await e.play('birds',.4);assert.equal(session.type,'playback');e.stopAll()}
+ finally{Reflect.deleteProperty(globalThis.navigator,'audioSession')}
+});
+test('unsupported audio-session configuration does not prevent playback',async()=>{
+ Object.defineProperty(globalThis.navigator,'audioSession',{configurable:true,value:{set type(_value:string){throw Error('Unsupported')}}});
+ try{const e=engine();assert.equal(await e.play('birds',.4),true);e.stopAll()}
+ finally{Reflect.deleteProperty(globalThis.navigator,'audioSession')}
+});
+test('resumes the Safari interrupted state on a new user gesture',async()=>{
+ const e=engine();await e.unlock();Object.assign(e.context!,{state:'interrupted'});
+ await e.unlock();assert.equal(e.context!.state,'running');
+});

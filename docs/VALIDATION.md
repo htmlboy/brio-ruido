@@ -33,3 +33,9 @@ Primera versión desplegada en **https://htmlboy.github.io/ruido/** desde el rep
 El usuario activó GitHub Pages con origen GitHub Actions. El flujo [41929712441](https://github.com/htmlboy/ruido/actions/runs/41929712441) completó instalación, las 16 pruebas, compilación y despliegue del commit `9bd9faf`.
 
 El código y la interfaz originales se distribuyen con todos los derechos reservados; los audios conservan sus licencias y se incluyen avisos de dependencias de terceros. Las limitaciones de validación manual indicadas arriba siguen pendientes.
+
+## Corrección de reproducción en iOS
+
+Se solicita `navigator.audioSession.type = 'playback'` antes de activar Web Audio, cuando la API está disponible, para evitar la ruta de audio ambiental que puede quedar silenciada en iOS. También se permite reanudar el estado `interrupted` de Safari mediante un nuevo gesto del usuario. La API opcional puede fallar sin impedir la reproducción en otros navegadores.
+
+19 pruebas automáticas pasan, incluidas tres regresiones para el modo de sesión, la API no soportada y la recuperación de una interrupción. La confirmación auditiva en el dispositivo del usuario sigue pendiente.
