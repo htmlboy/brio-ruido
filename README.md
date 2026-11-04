@@ -62,4 +62,6 @@ La revisión de Blanket está fijada en `scripts/blanket-revision.txt`; la proce
 
 ## Licencia
 
-Código: MIT. Los archivos de audio conservan sus licencias respectivas. Consulta [LICENSE](LICENSE) y [ATTRIBUTIONS.md](ATTRIBUTIONS.md).
+Código, documentación e interfaz originales: **todos los derechos reservados**. El repositorio público no concede permiso de reutilización, modificación, redistribución ni uso comercial. El uso personal de la web oficial está permitido. Consulta [LICENSE](LICENSE).
+
+Los audios y las dependencias conservan sus licencias respectivas; consulta [ATTRIBUTIONS.md](ATTRIBUTIONS.md). Las versiones del código distribuidas previamente bajo MIT conservan los permisos ya concedidos.

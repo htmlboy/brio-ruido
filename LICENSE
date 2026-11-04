@@ -1,26 +1,44 @@
-MIT License
+Ruido — All Rights Reserved
 
-Copyright (c) 2026 Ruido contributors
+Copyright (c) 2026 Javier Usobiaga.
+All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This notice applies to the original source code, documentation, interface
+and original visual assets of Ruido, except for the materials excluded below.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Public access to this repository does not grant a license to use, copy,
+modify, distribute, sublicense, sell or otherwise exploit these materials.
+Any such use requires prior written permission from the copyright holder.
+No commercial use or redistribution is authorized.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Visitors may use the officially hosted Ruido website through its interface
+for their own personal purposes. This permission includes the temporary
+copies made by the browser as necessary to use that website. It does not
+authorize copying or deploying the application elsewhere.
 
-Audio assets are excluded from this software license. See ATTRIBUTIONS.md for
-individual licenses, attribution, source links, and modifications. Original
-synthetic audio authored for Ruido is dedicated under CC0 1.0:
-https://creativecommons.org/publicdomain/zero/1.0/
+Rights required by GitHub's applicable Terms of Service, including viewing
+and forking a public repository on GitHub, are unaffected. Such rights do
+not provide additional permission to use or redistribute the project.
+
+Excluded materials
+
+Audio files retain their individual licenses and are not restricted by this
+notice. See ATTRIBUTIONS.md for their authors, licenses, source links and
+modifications. The original synthetic audio identified there remains under
+CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
+
+Third-party dependencies retain their respective licenses. This notice does
+not replace, narrow or revoke rights granted by those licenses.
+
+Earlier versions
+
+This notice applies prospectively. It does not revoke permissions already
+granted for versions previously distributed under the MIT License.
+
+Disclaimer
+
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED
+BY LAW, THE COPYRIGHT HOLDER IS NOT LIABLE FOR CLAIMS, DAMAGES OR OTHER
+LIABILITY ARISING FROM USE OF THE MATERIALS.
