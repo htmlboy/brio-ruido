@@ -28,6 +28,8 @@ Esta es una primera versión para revisión, no la declaración de que todos los
 
 ## Estado de publicación
 
-Código y los 24 audios subidos a `htmlboy/ruido`, creado por el usuario. Instalación, 16 pruebas y compilación comprobadas también en GitHub Actions.
+Primera versión desplegada en **https://htmlboy.github.io/ruido/** desde el repositorio público `htmlboy/ruido`.
 
-La activación inicial de Pages está bloqueada por permisos: REST y `actions/configure-pages` con `enablement: true` reciben «Resource not accessible by integration» al crear el sitio. Se necesita seleccionar **GitHub Actions** en **Settings → Pages → Build and deployment → Source** desde la cuenta del usuario; después se puede relanzar el flujo de publicación.
+El usuario activó GitHub Pages con origen GitHub Actions. El flujo [41929712441](https://github.com/htmlboy/ruido/actions/runs/41929712441) completó instalación, las 16 pruebas, compilación y despliegue del commit `9bd9faf`.
+
+El código y la interfaz originales se distribuyen con todos los derechos reservados; los audios conservan sus licencias y se incluyen avisos de dependencias de terceros. Las limitaciones de validación manual indicadas arriba siguen pendientes.
