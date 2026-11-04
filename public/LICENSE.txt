@@ -1,0 +1,44 @@
+Ruido — All Rights Reserved
+
+Copyright (c) 2026 Javier Usobiaga.
+All rights reserved.
+
+This notice applies to the original source code, documentation, interface
+and original visual assets of Ruido, except for the materials excluded below.
+
+Public access to this repository does not grant a license to use, copy,
+modify, distribute, sublicense, sell or otherwise exploit these materials.
+Any such use requires prior written permission from the copyright holder.
+No commercial use or redistribution is authorized.
+
+Visitors may use the officially hosted Ruido website through its interface
+for their own personal purposes. This permission includes the temporary
+copies made by the browser as necessary to use that website. It does not
+authorize copying or deploying the application elsewhere.
+
+Rights required by GitHub's applicable Terms of Service, including viewing
+and forking a public repository on GitHub, are unaffected. Such rights do
+not provide additional permission to use or redistribute the project.
+
+Excluded materials
+
+Audio files retain their individual licenses and are not restricted by this
+notice. See ATTRIBUTIONS.md for their authors, licenses, source links and
+modifications. The original synthetic audio identified there remains under
+CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
+
+Third-party dependencies retain their respective licenses. This notice does
+not replace, narrow or revoke rights granted by those licenses.
+
+Earlier versions
+
+This notice applies prospectively. It does not revoke permissions already
+granted for versions previously distributed under the MIT License.
+
+Disclaimer
+
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED
+BY LAW, THE COPYRIGHT HOLDER IS NOT LIABLE FOR CLAIMS, DAMAGES OR OTHER
+LIABILITY ARISING FROM USE OF THE MATERIALS.
