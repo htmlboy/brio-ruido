@@ -28,4 +28,6 @@ Esta es una primera versión para revisión, no la declaración de que todos los
 
 ## Estado de publicación
 
-La creación de `htmlboy/ruido` está bloqueada por permisos de la integración de GitHub: GraphQL `createRepository` y REST `POST /user/repos` devuelven «Resource not accessible by integration» (403 en REST). El acceso de red funciona. Se necesita un repositorio vacío accesible para continuar con la subida y habilitar Pages.
+Código y los 24 audios subidos a `htmlboy/ruido`, creado por el usuario. Instalación, 16 pruebas y compilación comprobadas también en GitHub Actions.
+
+La activación inicial de Pages está bloqueada por permisos: REST y `actions/configure-pages` con `enablement: true` reciben «Resource not accessible by integration» al crear el sitio. Se necesita seleccionar **GitHub Actions** en **Settings → Pages → Build and deployment → Source** desde la cuenta del usuario; después se puede relanzar el flujo de publicación.
