@@ -10,6 +10,8 @@ Cada pista tiene su propio volumen y puede activarse o detenerse de forma indepe
 
 ## Primera versión
 
+Implementación inicial preparada y validada automáticamente. Publicación pendiente de que GitHub permita crear o acceder al repositorio `htmlboy/ruido`.
+
 - 24 pistas alojadas con la aplicación: 12 grabaciones abiertas y 12 capas de síntesis original, incluidas cuatro bases musicales.
 - Seis escenas de ejemplo y mezclas de hasta ocho pistas.
 - Búsqueda, categorías, volumen por pista y volumen general.

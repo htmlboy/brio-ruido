@@ -25,3 +25,7 @@ La identidad visual usa tonos oscuros, acentos verde claro, ilustraciones vector
 El entorno no ofrece el control de navegador requerido para las pruebas visuales e interactivas. Por tanto, aún no se acredita la matriz Chrome/Firefox/Safari/Edge, Safari iOS/Chrome Android, la navegación completa con lector de pantalla, la escucha de tres bucles por pista ni la prueba de diez minutos en dispositivos reales. Las pruebas automatizadas del motor usan un contexto de audio simulado; no sustituyen una escucha real.
 
 Esta es una primera versión para revisión, no la declaración de que todos los criterios manuales de aceptación del MVP estén superados.
+
+## Estado de publicación
+
+La creación de `htmlboy/ruido` está bloqueada por permisos de la integración de GitHub: GraphQL `createRepository` y REST `POST /user/repos` devuelven «Resource not accessible by integration» (403 en REST). El acceso de red funciona. Se necesita un repositorio vacío accesible para continuar con la subida y habilitar Pages.
