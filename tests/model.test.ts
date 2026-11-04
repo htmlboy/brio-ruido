@@ -1,0 +1,15 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {existsSync,readFileSync} from 'node:fs';
+import {parseSaved,validLayers,searchTracks,type Track} from '../src/model';
+import catalog from '../src/catalog.json';
+import {examples} from '../src/scenes';
+const tracks=catalog as Track[];
+test('catalog IDs, files, provenance, volumes and durations are valid',()=>{assert.equal(new Set(tracks.map(t=>t.id)).size,tracks.length);assert.equal(tracks.length,24);for(const t of tracks){assert.ok(existsSync(`public/${t.src}`),t.id);assert.ok(t.duration>2);assert.ok(t.defaultVolume>=0&&t.defaultVolume<=1);assert.match(t.sourceUrl,/^https:\/\//);assert.match(t.licenseUrl,/^https:\/\//);assert.ok(t.author);assert.ok(t.modifications);assert.ok(readFileSync('ATTRIBUTIONS.md','utf8').includes(t.sourceUrl))}});
+test('example scenes reference available, unique tracks',()=>{for(const scene of examples){assert.ok(validLayers(scene.tracks));for(const t of scene.tracks)assert.ok(tracks.some(track=>track.id===t.trackId))}});
+test('search combines category, tags, case and accent normalization',()=>{assert.ok(searchTracks(tracks,'PAJAROS','Naturaleza').some(t=>t.id==='birds'));assert.ok(searchTracks(tracks,'CAFE','Interiores').some(t=>t.id==='coffee-shop'));assert.equal(searchTracks(tracks,'lluvia','Ciudad').length,0);assert.equal(searchTracks(tracks,'   ','Todos').length,tracks.length)});
+test('missing storage returns a safe silent default',()=>{const x=parseSaved(null);assert.deepEqual(x.scenes,[]);assert.equal(x.schemaVersion,1)});
+test('valid scenes roundtrip without changing values',()=>{const data={schemaVersion:1,masterVolume:0,scenes:[{id:'a',name:'Mi bosque',tracks:[{trackId:'birds',volume:.37}]}]};assert.deepEqual(parseSaved(JSON.stringify(data)),data)});
+test('corrupt, unsupported and invalid saved data is rejected',()=>{for(const raw of ['{','null','{}',JSON.stringify({schemaVersion:2,scenes:[],masterVolume:.5}),JSON.stringify({schemaVersion:1,scenes:[],masterVolume:2}),JSON.stringify({schemaVersion:1,masterVolume:.5,scenes:[{id:'a',name:' ',tracks:[]} ]})])assert.throws(()=>parseSaved(raw))});
+test('duplicate IDs and tracks are rejected',()=>{const scene={id:'a',name:'A',tracks:[{trackId:'birds',volume:.5}]};assert.throws(()=>parseSaved(JSON.stringify({schemaVersion:1,masterVolume:.5,scenes:[scene,scene]})));assert.equal(validLayers([...scene.tracks,...scene.tracks]),false)});
+test('empty, oversized and invalid-volume scenes are rejected',()=>{assert.equal(validLayers([]),false);assert.equal(validLayers(Array.from({length:9},(_,i)=>({trackId:String(i),volume:.5}))),false);for(const volume of [-1,2,NaN,Infinity])assert.equal(validLayers([{trackId:'birds',volume}]),false)});

@@ -1,0 +1,486 @@
+[
+  {
+    "id": "birds",
+    "title": "Pájaros del bosque",
+    "category": "Naturaleza",
+    "tags": [
+      "aves",
+      "día",
+      "bosque"
+    ],
+    "src": "audio/birds.mp3",
+    "author": "kvgarlic",
+    "sourceUrl": "https://freesound.org/people/kvgarlic/sounds/156826/",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modifications": "Edición previa: Porrumentzio. Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.",
+    "defaultVolume": 0.45,
+    "kind": "recorded",
+    "duration": 18.0,
+    "upstreamUrl": "https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/birds.ogg",
+    "originalSha256": "e59b19c2a377d5835d07e7ec8f8c876b9f40ae7f703738b55d616ef96a1638b2"
+  },
+  {
+    "id": "boat",
+    "title": "Barca de madera",
+    "category": "Agua",
+    "tags": [
+      "remo",
+      "lago",
+      "puerto"
+    ],
+    "src": "audio/boat.mp3",
+    "author": "Falcet",
+    "sourceUrl": "https://freesound.org/people/Falcet/sounds/439365/",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modifications": "Edición previa: Porrumentzio. Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.",
+    "defaultVolume": 0.45,
+    "kind": "recorded",
+    "duration": 18.0,
+    "upstreamUrl": "https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/boat.ogg",
+    "originalSha256": "e6f3565750e2d3dd0dcb5bd3f826c10e302df4d1d044dd177af0707abe027dea"
+  },
+  {
+    "id": "city",
+    "title": "Calle y tráfico",
+    "category": "Ciudad",
+    "tags": [
+      "calle",
+      "coches",
+      "tráfico"
+    ],
+    "src": "audio/city.mp3",
+    "author": "gezortenplotz",
+    "sourceUrl": "https://freesound.org/people/gezortenplotz/sounds/44796/",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "modifications": "Edición previa: Porrumentzio. Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.",
+    "defaultVolume": 0.45,
+    "kind": "recorded",
+    "duration": 18.0,
+    "upstreamUrl": "https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/city.ogg",
+    "originalSha256": "3e9a574a0d93f75872e0f37304c622e6cb76b28714deb1a50af666293105ae75"
+  },
+  {
+    "id": "coffee-shop",
+    "title": "Cafetería",
+    "category": "Interiores",
+    "tags": [
+      "gente",
+      "charla",
+      "taberna",
+      "café",
+      "restaurante"
+    ],
+    "src": "audio/coffee-shop.mp3",
+    "author": "stephan",
+    "sourceUrl": "https://soundbible.com/1664-Restaurant-Ambiance.html",
+    "license": "Dominio público",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "modifications": "Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.",
+    "defaultVolume": 0.45,
+    "kind": "recorded",
+    "duration": 14.663,
+    "upstreamUrl": "https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/coffee-shop.ogg",
+    "originalSha256": "397b5d95f06df69ba2989147cf9c37a417b2dc5950c1a16fbe6be6fa372d25ef"
+  },
+  {
+    "id": "fireplace",
+    "title": "Fuego de hogar",
+    "category": "Interiores",
+    "tags": [
+      "fuego",
+      "chimenea",
+      "campamento",
+      "taberna"
+    ],
+    "src": "audio/fireplace.mp3",
+    "author": "ezwa",
+    "sourceUrl": "https://soundbible.com/1543-Fireplace.html",
+    "license": "Dominio público",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "modifications": "Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.",
+    "defaultVolume": 0.45,
+    "kind": "recorded",
+    "duration": 18.0,
+    "upstreamUrl": "https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/fireplace.ogg",
+    "originalSha256": "a6395379a32c2dc30dd870c4571ded4a5311435aacfe354b3a82a9b3ab98620b"
+  },
+  {
+    "id": "rain",
+    "title": "Lluvia",
+    "category": "Clima",
+    "tags": [
+      "agua",
+      "tormenta",
+      "lluvia"
+    ],
+    "src": "audio/rain.mp3",
+    "author": "alex36917",
+    "sourceUrl": "https://freesound.org/people/alex36917/sounds/524605/",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "Edición previa: Porrumentzio. Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.",
+    "defaultVolume": 0.45,
+    "kind": "recorded",
+    "duration": 17.995,
+    "upstreamUrl": "https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/rain.ogg",
+    "originalSha256": "b84c1daf259a24283be40b7663656d17676df4eb60c1e0332820570db891848a"
+  },
+  {
+    "id": "storm",
+    "title": "Tormenta lejana",
+    "category": "Clima",
+    "tags": [
+      "truenos",
+      "lluvia",
+      "cielo"
+    ],
+    "src": "audio/storm.mp3",
+    "author": "Digifish music",
+    "sourceUrl": "https://freesound.org/people/digifishmusic/sounds/41739/",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "Edición previa: Porrumentzio. Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.",
+    "defaultVolume": 0.45,
+    "kind": "recorded",
+    "duration": 18.0,
+    "upstreamUrl": "https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/storm.ogg",
+    "originalSha256": "7e2a9bee62273b1deb169b6f7a308b70ead6ae450d3f6c75b854a44e4bef7b5a"
+  },
+  {
+    "id": "stream",
+    "title": "Arroyo",
+    "category": "Agua",
+    "tags": [
+      "río",
+      "agua",
+      "bosque"
+    ],
+    "src": "audio/stream.mp3",
+    "author": "gluckose",
+    "sourceUrl": "https://freesound.org/people/gluckose/sounds/333987/",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modifications": "Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.",
+    "defaultVolume": 0.45,
+    "kind": "recorded",
+    "duration": 18.0,
+    "upstreamUrl": "https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/stream.ogg",
+    "originalSha256": "ce372c5db561168636647dd7d4aac39ef1785ae5d415ad0e589186ce1b7c5796"
+  },
+  {
+    "id": "summer-night",
+    "title": "Noche de verano",
+    "category": "Naturaleza",
+    "tags": [
+      "grillos",
+      "noche",
+      "campo"
+    ],
+    "src": "audio/summer-night.mp3",
+    "author": "Lisa Redfern",
+    "sourceUrl": "https://soundbible.com/2083-Crickets-Chirping-At-Night.html",
+    "license": "Dominio público",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "modifications": "Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.",
+    "defaultVolume": 0.45,
+    "kind": "recorded",
+    "duration": 18.0,
+    "upstreamUrl": "https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/summer-night.ogg",
+    "originalSha256": "2eb2efb8f5c6733e74dc8546f2ecfac40407e8242a9eed96a72e0fc68790ac6f"
+  },
+  {
+    "id": "train",
+    "title": "Dentro del tren",
+    "category": "Ciudad",
+    "tags": [
+      "viaje",
+      "vagón",
+      "máquina"
+    ],
+    "src": "audio/train.mp3",
+    "author": "SDLx",
+    "sourceUrl": "https://freesound.org/people/SDLx/sounds/259988/",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "modifications": "Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.",
+    "defaultVolume": 0.45,
+    "kind": "recorded",
+    "duration": 6.335,
+    "upstreamUrl": "https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/train.ogg",
+    "originalSha256": "b749ecf8f04842075c061e2f5572c85b2827d9ecc0670476f3339a9288bb4d71"
+  },
+  {
+    "id": "waves",
+    "title": "Oleaje",
+    "category": "Agua",
+    "tags": [
+      "mar",
+      "playa",
+      "puerto"
+    ],
+    "src": "audio/waves.mp3",
+    "author": "Luftrum",
+    "sourceUrl": "https://freesound.org/people/Luftrum/sounds/48412/",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "Edición previa: Porrumentzio. Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.",
+    "defaultVolume": 0.45,
+    "kind": "recorded",
+    "duration": 17.992,
+    "upstreamUrl": "https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/waves.ogg",
+    "originalSha256": "20e1aec7c7542f71645275871650881ea33bc92bd9816b243ea920bb1daa51a0"
+  },
+  {
+    "id": "wind",
+    "title": "Viento abierto",
+    "category": "Clima",
+    "tags": [
+      "aire",
+      "montaña",
+      "viento"
+    ],
+    "src": "audio/wind.mp3",
+    "author": "felix.blume",
+    "sourceUrl": "https://freesound.org/people/felix.blume/sounds/217506/",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modifications": "Edición previa: Porrumentzio. Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.",
+    "defaultVolume": 0.45,
+    "kind": "recorded",
+    "duration": 12.985,
+    "upstreamUrl": "https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/wind.ogg",
+    "originalSha256": "cfdc81be69cd5f434ebfeb708bdf094725f3052d76691f550ff0e10eee3e32d2"
+  },
+  {
+    "id": "soft-rain",
+    "title": "Llovizna",
+    "category": "Clima",
+    "tags": [
+      "lluvia",
+      "suave"
+    ],
+    "src": "audio/soft-rain.mp3",
+    "author": "Ruido",
+    "sourceUrl": "https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modifications": "Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.",
+    "defaultVolume": 0.4,
+    "kind": "synth",
+    "duration": 16.0
+  },
+  {
+    "id": "roof-rain",
+    "title": "Lluvia en el tejado",
+    "category": "Clima",
+    "tags": [
+      "lluvia",
+      "techo",
+      "refugio"
+    ],
+    "src": "audio/roof-rain.mp3",
+    "author": "Ruido",
+    "sourceUrl": "https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modifications": "Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.",
+    "defaultVolume": 0.4,
+    "kind": "synth",
+    "duration": 16.0
+  },
+  {
+    "id": "gusts",
+    "title": "Ráfagas de viento",
+    "category": "Clima",
+    "tags": [
+      "aire",
+      "ventisca"
+    ],
+    "src": "audio/gusts.mp3",
+    "author": "Ruido",
+    "sourceUrl": "https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modifications": "Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.",
+    "defaultVolume": 0.4,
+    "kind": "synth",
+    "duration": 16.0
+  },
+  {
+    "id": "deep-water",
+    "title": "Bajo el agua",
+    "category": "Agua",
+    "tags": [
+      "profundidad",
+      "submarino"
+    ],
+    "src": "audio/deep-water.mp3",
+    "author": "Ruido",
+    "sourceUrl": "https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modifications": "Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.",
+    "defaultVolume": 0.4,
+    "kind": "synth",
+    "duration": 16.0
+  },
+  {
+    "id": "distant-sea",
+    "title": "Mar en calma",
+    "category": "Agua",
+    "tags": [
+      "olas",
+      "mar",
+      "costa"
+    ],
+    "src": "audio/distant-sea.mp3",
+    "author": "Ruido",
+    "sourceUrl": "https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modifications": "Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.",
+    "defaultVolume": 0.4,
+    "kind": "synth",
+    "duration": 16.0
+  },
+  {
+    "id": "engine",
+    "title": "Motor distante",
+    "category": "Ciudad",
+    "tags": [
+      "máquina",
+      "industrial",
+      "tráfico"
+    ],
+    "src": "audio/engine.mp3",
+    "author": "Ruido",
+    "sourceUrl": "https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modifications": "Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.",
+    "defaultVolume": 0.4,
+    "kind": "synth",
+    "duration": 16.0
+  },
+  {
+    "id": "air-vent",
+    "title": "Ventilación",
+    "category": "Interiores",
+    "tags": [
+      "ventilador",
+      "nave",
+      "aire"
+    ],
+    "src": "audio/air-vent.mp3",
+    "author": "Ruido",
+    "sourceUrl": "https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modifications": "Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.",
+    "defaultVolume": 0.4,
+    "kind": "synth",
+    "duration": 16.0
+  },
+  {
+    "id": "radio",
+    "title": "Estática de radio",
+    "category": "Interiores",
+    "tags": [
+      "ruido",
+      "radio",
+      "señal"
+    ],
+    "src": "audio/radio.mp3",
+    "author": "Ruido",
+    "sourceUrl": "https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modifications": "Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.",
+    "defaultVolume": 0.4,
+    "kind": "synth",
+    "duration": 16.0
+  },
+  {
+    "id": "embers",
+    "title": "Brasas",
+    "category": "Música",
+    "tags": [
+      "base",
+      "electrónica",
+      "sintético",
+      "ambient"
+    ],
+    "src": "audio/embers.mp3",
+    "author": "Ruido",
+    "sourceUrl": "https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modifications": "Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.",
+    "defaultVolume": 0.3,
+    "kind": "synth",
+    "duration": 16.0
+  },
+  {
+    "id": "suspense",
+    "title": "Algo se acerca",
+    "category": "Música",
+    "tags": [
+      "base",
+      "electrónica",
+      "sintético",
+      "ambient"
+    ],
+    "src": "audio/suspense.mp3",
+    "author": "Ruido",
+    "sourceUrl": "https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modifications": "Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.",
+    "defaultVolume": 0.3,
+    "kind": "synth",
+    "duration": 16.0
+  },
+  {
+    "id": "starlight",
+    "title": "Luz entre estrellas",
+    "category": "Música",
+    "tags": [
+      "base",
+      "electrónica",
+      "sintético",
+      "ambient"
+    ],
+    "src": "audio/starlight.mp3",
+    "author": "Ruido",
+    "sourceUrl": "https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modifications": "Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.",
+    "defaultVolume": 0.3,
+    "kind": "synth",
+    "duration": 16.0
+  },
+  {
+    "id": "pulse",
+    "title": "Pulso electrónico",
+    "category": "Música",
+    "tags": [
+      "base",
+      "electrónica",
+      "sintético",
+      "ambient"
+    ],
+    "src": "audio/pulse.mp3",
+    "author": "Ruido",
+    "sourceUrl": "https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modifications": "Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.",
+    "defaultVolume": 0.3,
+    "kind": "synth",
+    "duration": 16.0
+  }
+]
