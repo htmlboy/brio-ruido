@@ -43,3 +43,7 @@ Cada pista incluye identificador estable, título, categoría, etiquetas, ruta l
 La aplicación no descarga toda la biblioteca al abrir. Carga audio bajo demanda y reutiliza los buffers de la mezcla; una caché acotada libera buffers inactivos. Objetivo inicial: hasta 128 MiB de buffers decodificados retenidos, incluida la transición. El tamaño PCM se estima antes de aprobar el catálogo y las escenas de ejemplo.
 
 Se comprobarán versiones estables actuales de Chrome, Firefox, Safari y Edge, además de Safari en iOS y Chrome en Android. La suspensión en segundo plano depende del navegador y del sistema; no se promete reproducción en segundo plano ni con la pantalla bloqueada.
+
+## Investigación de dirección musical
+
+La referencia Delta Green Audio Console y una selección inicial de Incompetech se documentan en [DELTA-GREEN-AUDIO.md](../references/DELTA-GREEN-AUDIO.md). Son candidatas para audición y no pistas confirmadas de la referencia ni incorporaciones al catálogo publicado. Antes de añadir música de varios minutos se evaluará su estrategia de reproducción, memoria y transiciones. No cambia el alcance actual de los efectos puntuales ni se da por implementado un control de intensidad.
