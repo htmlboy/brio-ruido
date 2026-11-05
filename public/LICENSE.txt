@@ -1,6 +1,6 @@
 Ruido — All Rights Reserved
 
-Copyright (c) 2026 Javier Usobiaga.
+Copyright (c) 2026 Javier U.
 All rights reserved.
 
 This notice applies to the original source code, documentation, interface

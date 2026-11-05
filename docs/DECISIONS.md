@@ -61,3 +61,9 @@ Fecha: 2026-11-05. Estado: implementada.
 Se amplía la selección musical de seis a 18 piezas completas de Kevin MacLeod, conservando CC BY 4.0, fuentes oficiales, créditos y hashes individuales. Siete de las nuevas composiciones cubren viaje, fantasía, exploración y descanso; las restantes amplían acción heroica, batalla, huida, infiltración y ritual. No se importa el catálogo completo. La biblioteca suma 54 pistas y añade la categoría Aventura.
 
 Las escenas pasan de ocho a 16, con seis de aventura, ocho de tensión y dos cotidianas. Los filtros de tono y el despliegue opcional permiten ampliar la selección sin alargar de entrada toda la página. Las ilustraciones pueden repetirse si el entorno lo justifica. El tono es metadato de las escenas de ejemplo; no cambia el formato de guardado ni obliga a clasificar escenas personales.
+
+## D-012 — Firma pública del autor
+
+Fecha: 2026-11-05. Estado: aplicada a la licencia.
+
+Los créditos propios usan Javier U, el seudónimo elegido por el autor para sus proyectos de rol. La licencia mantiene todos los derechos reservados y no modifica las atribuciones de audio ni las licencias de terceros.
