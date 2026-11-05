@@ -1,4 +1,4 @@
-"""Prepare only the six editorially selected, attributed tracks. No bulk catalog import.
+"""Prepare only the editorially selected, attributed tracks. No bulk catalog import.
 Requires Python 3, ffmpeg and network access when original sources are not cached.
 """
 from pathlib import Path
@@ -27,7 +27,7 @@ def write_credits(tracks):
 
 def main():
  selected=json.loads(SELECTION.read_text())
- if len(selected)!=6:raise RuntimeError('This preparation script is limited to the approved six-track selection')
+ if len(selected)!=18:raise RuntimeError('This preparation script is limited to the reviewed 18-track selection')
  for track in selected:
   if track['license']!='CC BY 4.0' or track['licenseUrl']!='https://creativecommons.org/licenses/by/4.0/':
    raise RuntimeError('Unexpected source license; review before downloading')
@@ -49,6 +49,6 @@ def main():
  (ROOT/'src/catalog.json').write_text(json.dumps(tracks,ensure_ascii=False,indent=2)+'\n')
  SELECTION.write_text(json.dumps(selected,ensure_ascii=False,indent=2)+'\n')
  write_credits(tracks)
- print('Prepared six complete tracks; active catalog:',len(tracks))
+ print('Prepared',len(selected),'complete tracks; active catalog:',len(tracks))
 
 if __name__=='__main__':main()

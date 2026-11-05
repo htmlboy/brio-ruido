@@ -12,10 +12,10 @@ Cada pista tiene su propio volumen y puede activarse o detenerse de forma indepe
 
 Primera versión publicada en **https://ruido.briorol.com/**. Las pruebas y la compilación se ejecutan también en GitHub Actions.
 
-- 42 pistas alojadas con la aplicación: grabaciones, composiciones de terceros y capas de síntesis original.
+- 54 pistas alojadas con la aplicación: grabaciones, composiciones de terceros y capas de síntesis original.
 - Categorías de tensión, horror y acción: percusión de guerra, cuerdas disonantes, piano y coro, drones y fondos postapocalípticos.
 - Ilustraciones para reconocer las escenas y 16 imágenes seleccionables para las mezclas guardadas.
-- Ocho escenas: investigación, amenaza cercana, persecución, combate, catacumbas, nave a la deriva, taberna y bosque. Mezclas de hasta ocho pistas.
+- 16 escenas de tensión, aventura y ambiente cotidiano, filtrables por tono. Mezclas de hasta ocho pistas.
 - Búsqueda, categorías, volumen por pista y volumen general.
 - Cambios de escena con fundido de dos segundos, manteniendo las pistas compartidas.
 - Escenas guardadas en el navegador, con exportación e importación de copias JSON.
@@ -44,7 +44,7 @@ La compilación estática queda en `dist/` y usa rutas relativas, compatibles co
 
 Las grabaciones proceden del catálogo de [Blanket](https://github.com/rafaelmardojai/blanket), con sus fuentes originales y licencias independientes documentadas en [ATTRIBUTIONS.md](ATTRIBUTIONS.md). Se incluyen CC0, dominio público y CC BY. Se han preparado extractos mono, niveles y uniones con fundido cruzado. El código de Blanket no se incorpora al proyecto.
 
-Se añaden seis composiciones completas de Kevin MacLeod / Incompetech bajo CC BY 4.0, con créditos y procedencia por pista. Esta selección acotada no representa la lista exacta de Delta Green Audio Console. Detalle en [MUSIC-SELECTION.md](docs/MUSIC-SELECTION.md).
+Se incluyen 18 composiciones completas de Kevin MacLeod / Incompetech bajo CC BY 4.0, con créditos y procedencia por pista. Esta selección acotada no representa la lista exacta de Delta Green Audio Console. Detalle en [MUSIC-SELECTION.md](docs/MUSIC-SELECTION.md).
 
 Las capas sintéticas originales se publican bajo CC0. La biblioteca dramática incorpora diez composiciones de [OpenGameArt](https://opengameart.org/) bajo CC0, CC BY 3.0 y OGA-BY 3.0. Las atribuciones y la evidencia de licencia se conservan por archivo en [docs/audio/dramatic-sources.json](docs/audio/dramatic-sources.json). Para reconstruir el catálogo desde las fuentes se necesita Python 3, NumPy, ffmpeg y acceso de red:
 

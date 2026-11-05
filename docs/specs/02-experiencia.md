@@ -54,8 +54,12 @@ Todas las acciones funcionan con teclado, muestran foco visible y tienen nombres
 
 ## Identificación visual de escenas — RF-07
 
-Las ocho escenas de ejemplo muestran ilustraciones distintas. El repertorio de 16 ilustraciones está disponible al guardar una escena nueva y mediante «Cambiar ilustración» en las escenas guardadas. Cambiar la imagen no modifica la mezcla ni sus volúmenes ni inicia audio. Las imágenes ayudan a identificar; el nombre textual siempre permanece visible.
+Las 16 escenas de ejemplo muestran ilustraciones asociadas a su entorno; pueden compartir imagen cuando comparten escenario. El repertorio de 16 ilustraciones está disponible al guardar una escena nueva y mediante «Cambiar ilustración» en las escenas guardadas. Cambiar la imagen no modifica la mezcla ni sus volúmenes ni inicia audio. Las imágenes ayudan a identificar; el nombre textual siempre permanece visible.
 
 El identificador `art` se conserva al guardar y exportar/importar. Escenas antiguas sin imagen y valores desconocidos usan una ilustración neutra, sin descartar la escena ni alterar sus pistas. Los identificadores desconocidos se conservan en los datos. El selector usa radios nativos y se puede manejar con teclado.
 
 En móvil, las escenas de ejemplo se recorren horizontalmente para mantener la biblioteca accesible. Las ilustraciones se incluyen con el código; no se cargan imágenes de terceros ni se aceptan URLs o archivos personalizados. Referencia: [SCENE-ART.md](../SCENE-ART.md).
+
+## Selección por tono
+
+Las escenas de ejemplo se filtran con botones «Todas», «Aventura», «Tensión» y «Cotidiano», con estado pulsado accesible. Filtrar no inicia ni detiene audio. Se muestran hasta ocho tarjetas de entrada, con una selección inicial variada y un control para desplegar las 16; los filtros de tono muestran sus grupos completos. El filtro de biblioteca «Aventura» permite encontrar las nuevas composiciones de exploración y viaje. Las escenas personales conservan su formato y sus identificadores.

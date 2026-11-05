@@ -43,3 +43,5 @@
  .art-option>.scene-illustration{height:58px}
  .art-option-name{font-size:10px;min-height:28px;display:grid;place-items:center}
 }
+
+.scene-tones{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px}.scene-tones button{min-height:44px;padding:8px 13px;border:1px solid var(--line);border-radius:3px;color:var(--muted);font-size:12px}.scene-tones button[aria-pressed=true]{color:var(--accent);border-color:var(--accent)}.more-scenes{min-height:44px;margin-top:8px;padding:8px 0;color:var(--accent);font-size:12px}
