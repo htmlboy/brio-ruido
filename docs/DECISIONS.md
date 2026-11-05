@@ -45,3 +45,11 @@ Fecha: 2026-11-05. Estado: implementada.
 Se recuperan ilustraciones para reconocer escenas rápidamente, manteniendo la estructura funcional de biblioteca y mezcla. Las imágenes cumplen una función de identificación y no recuperan el hero ni la decoración de la primera versión. Las escenas del usuario pueden elegir y cambiar una imagen entre 16 SVG originales incluidos en la aplicación.
 
 El campo opcional `art` se conserva en el esquema v1. Las escenas antiguas y las imágenes desconocidas usan una previsualización neutra; los valores desconocidos se preservan en los datos. No se admite subir imágenes ni enlazarlas desde terceros. La selección usa radios nativos, etiquetas y foco visible. Referencia: [SCENE-ART.md](SCENE-ART.md).
+
+## D-010 — Seis temas completos de música dramática
+
+Fecha: 2026-11-05. Estado: implementada.
+
+Se elige una selección editorial acotada de seis composiciones de Kevin MacLeod / Incompetech, con CC BY 4.0, créditos y fuentes por pista. No se importa todo el catálogo ni se presenta la selección como la lista verificada de Delta Green Audio Console. Se conservan los títulos y las estructuras completas; se recodifica a MP3 estéreo de 128 kbps. El conjunto añade 27,8 MiB y se aloja con la aplicación, sin R2.
+
+La música larga usa elementos multimedia conectados al grafo de Web Audio; los ambientes siguen en buffers. Se conservan ganancias, parada, carga cancelable y continuidad de las pistas compartidas. Oppressive Gloom queda disponible para crear mezclas de drama y consecuencias. Referencia: [MUSIC-SELECTION.md](MUSIC-SELECTION.md).

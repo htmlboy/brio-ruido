@@ -1,4 +1,4 @@
-export type Track = {id:string;title:string;description?:string;category:string;tags:string[];src:string;author:string;sourceUrl:string;license:string;licenseUrl:string;modifications:string;defaultVolume:number;kind:'recorded'|'synth'|'composition';duration:number};
+export type Track = {id:string;title:string;description?:string;category:string;tags:string[];src:string;author:string;sourceUrl:string;license:string;licenseUrl:string;modifications:string;defaultVolume:number;kind:'recorded'|'synth'|'composition';duration:number;playback?:'stream'};
 export type Layer = {trackId:string;volume:number};
 export type Scene = {id:string;name:string;tracks:Layer[];description?:string;art?:string};
 export type SavedData = {schemaVersion:1;masterVolume:number;scenes:Scene[]};
