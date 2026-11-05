@@ -51,6 +51,6 @@ En una prueba manual, una persona debe poder crear su primera mezcla sin instruc
 
 - Validación visual e interacción en dispositivos reales; dirección visual definida en [DESIGN-REVIEW.md](../DESIGN-REVIEW.md).
 - Escucha de los bucles y escenas en dispositivos reales; catálogo actual de 36 pistas y ocho escenas.
-- Configuración del dominio que el usuario ha registrado; nombre y proveedor DNS pendientes de confirmar.
+- Configuración de `ruido.briorol.com`: DNS en Cloudflare y alojamiento en GitHub Pages; instrucciones en [DOMAIN.md](../DOMAIN.md).
 
 Las decisiones pendientes no bloquean la estructura del producto ni el trabajo técnico inicial.

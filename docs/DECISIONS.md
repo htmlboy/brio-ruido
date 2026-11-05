@@ -32,6 +32,8 @@ Se mantienen las 24 pistas anteriores y sus identificadores y se añaden 12: die
 
 ## D-007 — Dominio propio
 
-Fecha: 2026-11-05. Estado: pendiente de configuración.
+Fecha: 2026-11-05. Estado: definido; configuración externa pendiente.
 
-El usuario comunica que ha registrado un dominio. Falta conocer el nombre y confirmar dónde se gestiona su DNS. El alojamiento actual sigue siendo GitHub Pages. No se ha aprobado ni efectuado una migración a otro alojamiento; no se han cambiado registros DNS ni añadido un CNAME. El cambio de origen requerirá exportar/importar las escenas si se quieren trasladar los datos del navegador.
+El usuario ha registrado `briorol.com` y decide alojar Ruido en `ruido.briorol.com`, con DNS gestionado en Cloudflare y alojamiento en GitHub Pages. No se migra el alojamiento. El CNAME previsto es `ruido` → `htmlboy.github.io`, inicialmente sin proxy.
+
+No hay conector de Cloudflare en el catálogo disponible y la integración de GitHub devuelve 403 al configurar el dominio personalizado. Los ajustes manuales y las comprobaciones posteriores se documentan en [DOMAIN.md](DOMAIN.md). No se ha cambiado DNS ni el dominio activo. Las escenas locales se trasladan mediante exportación/importación JSON al cambiar de origen.

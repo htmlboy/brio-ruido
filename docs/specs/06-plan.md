@@ -4,7 +4,7 @@ Estado: fases de implementación 1–6 realizadas y primera versión publicada. 
 
 ## Próximas tareas
 
-- Confirmar dominio y proveedor DNS, configurar el dominio en Pages y verificar HTTPS y recursos.
+- Configurar `ruido.briorol.com` en Cloudflare y GitHub Pages según [DOMAIN.md](../DOMAIN.md); verificar DNS, HTTPS y recursos.
 - Escucha real de las 36 pistas y sus uniones; revisar el equilibrio de las ocho escenas.
 - Validar diseño, teclado, lector de pantalla y reproducción en escritorio y móvil.
 - Comprobar memoria y continuidad de audio en sesiones prolongadas.

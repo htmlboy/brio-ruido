@@ -65,4 +65,4 @@ La transición solo comienza cuando la escena de destino está preparada y valid
 
 No se incorporan analítica, publicidad ni cookies de seguimiento. El alojamiento recibe las solicitudes habituales de página y archivos. No se envían escenas a un servidor.
 
-El flujo de despliegue ejecuta validación de tipos, pruebas relevantes y compilación antes de publicar. El repositorio público es `htmlboy/ruido` y la URL actual es https://htmlboy.github.io/ruido/. El dominio propio está pendiente de configuración. Al cambiar de origen, las escenas locales se trasladan mediante exportación/importación JSON.
+El flujo de despliegue ejecuta validación de tipos, pruebas relevantes y compilación antes de publicar. El repositorio público es `htmlboy/ruido` y la URL actual es https://htmlboy.github.io/ruido/. El dominio propio `ruido.briorol.com` está definido y pendiente de configuración; su DNS se gestionará en Cloudflare con un CNAME a `htmlboy.github.io`. Al cambiar de origen, las escenas locales se trasladan mediante exportación/importación JSON.
