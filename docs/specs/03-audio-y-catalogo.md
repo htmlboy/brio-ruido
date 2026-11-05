@@ -4,7 +4,7 @@ Estado: especificación vigente. Implementación publicada; comprobaciones manua
 
 ## Motor de reproducción
 
-Usar Web Audio API con buffers decodificados y reproducción en bucle. Cada fuente tiene una ganancia individual y todas pasan por una ganancia general. El contexto se activa mediante una interacción del usuario; si el navegador lo suspende, la interfaz indica que hace falta reanudarlo.
+Usar Web Audio API con buffers decodificados para ambientes y un HTMLAudioElement por pista de música larga, conectado al mismo grafo de ganancias. Ambas modalidades reproducen en bucle y se cargan solo bajo demanda. Cada fuente tiene una ganancia individual y todas pasan por una ganancia general. El contexto se activa mediante una interacción del usuario; si el navegador lo suspende, la interfaz indica que hace falta reanudarlo.
 
 Valores iniciales propuestos:
 
@@ -43,3 +43,9 @@ Cada pista incluye identificador estable, título, categoría, etiquetas, ruta l
 La aplicación no descarga toda la biblioteca al abrir. Carga audio bajo demanda y reutiliza los buffers de la mezcla; una caché acotada libera buffers inactivos. Objetivo inicial: hasta 128 MiB de buffers decodificados retenidos, incluida la transición. El tamaño PCM se estima antes de aprobar el catálogo y las escenas de ejemplo.
 
 Se comprobarán versiones estables actuales de Chrome, Firefox, Safari y Edge, además de Safari en iOS y Chrome en Android. La suspensión en segundo plano depende del navegador y del sistema; no se promete reproducción en segundo plano ni con la pantalla bloqueada.
+
+## Selección musical completa
+
+Se añaden seis composiciones de Kevin MacLeod / Incompetech bajo CC BY 4.0; el catálogo activo pasa a 42 pistas. Los archivos completos se sirven con la aplicación y añaden unos 27,8 MiB, sin importar el catálogo entero ni usar almacenamiento externo. Son una selección editorial para rol, no la lista confirmada de la consola de referencia.
+
+Las pistas con `playback: 'stream'` usan elementos multimedia para evitar decodificar toda su duración en PCM. La preparación debe permanecer silenciosa, arrancar dentro del gesto del usuario, poder cancelarse y preservar la mezcla anterior si falla. Las pistas musicales compartidas continúan sin reiniciarse al cambiar de escena. Los archivos mantienen sus finales musicales originales; su audición y calidad de repetición siguen pendientes. Fuentes, límites y proceso en [MUSIC-SELECTION.md](../MUSIC-SELECTION.md).

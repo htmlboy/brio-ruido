@@ -1,8 +1,66 @@
 # Atribuciones de audio
 
-Cada archivo conserva su licencia independiente de la licencia restrictiva del código. Las fuentes, modificaciones y huellas de los originales están documentadas en `src/catalog.json`.
+Los archivos conservan sus licencias individuales. La licencia restrictiva del código no se aplica a estos audios. Los títulos originales, autores, enlaces, modificaciones y huellas están documentados en `src/catalog.json` y los manifiestos de `docs/audio/`.
 
-Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fijada en `scripts/blanket-revision.txt`. La ampliación dramática utiliza composiciones de OpenGameArt bajo CC0, CC BY 3.0 y OGA-BY 3.0, con evidencia por archivo en `docs/audio/dramatic-sources.json`. Las capas originales de Ruido se publican bajo CC0.
+## Controlled Chaos - no percussion (`km-controlled-chaos-soft`)
+
+- Autor: Kevin MacLeod (incompetech.com)
+- Fuente: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200060
+- Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Modificaciones: Re-encoded to stereo MP3, 44.1 kHz, 128 kbps; duration and musical structure retained. No loop edits or cuts.
+- Crédito: "Controlled Chaos - no percussion" Kevin MacLeod (incompetech.com). Licensed under Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+- Archivo original: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Controlled%20Chaos%20-%20no%20percussion.mp3
+- Evidencia de licencia: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200060
+
+## Controlled Chaos (`km-controlled-chaos`)
+
+- Autor: Kevin MacLeod (incompetech.com)
+- Fuente: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200059
+- Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Modificaciones: Re-encoded to stereo MP3, 44.1 kHz, 128 kbps; duration and musical structure retained. No loop edits or cuts.
+- Crédito: "Controlled Chaos" Kevin MacLeod (incompetech.com). Licensed under Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+- Archivo original: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Controlled%20Chaos.mp3
+- Evidencia de licencia: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200059
+
+## Long Note Two (`km-long-note-two`)
+
+- Autor: Kevin MacLeod (incompetech.com)
+- Fuente: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100420
+- Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Modificaciones: Re-encoded to stereo MP3, 44.1 kHz, 128 kbps; duration and musical structure retained. No loop edits or cuts.
+- Crédito: "Long Note Two" Kevin MacLeod (incompetech.com). Licensed under Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+- Archivo original: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Long%20Note%20Two.mp3
+- Evidencia de licencia: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100420
+
+## Long Note Three (`km-long-note-three`)
+
+- Autor: Kevin MacLeod (incompetech.com)
+- Fuente: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100424
+- Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Modificaciones: Re-encoded to stereo MP3, 44.1 kHz, 128 kbps; duration and musical structure retained. No loop edits or cuts.
+- Crédito: "Long Note Three" Kevin MacLeod (incompetech.com). Licensed under Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+- Archivo original: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Long%20Note%20Three.mp3
+- Evidencia de licencia: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100424
+
+## Gathering Darkness (`km-gathering-darkness`)
+
+- Autor: Kevin MacLeod (incompetech.com)
+- Fuente: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100849
+- Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Modificaciones: Re-encoded to stereo MP3, 44.1 kHz, 128 kbps; duration and musical structure retained. No loop edits or cuts.
+- Crédito: "Gathering Darkness" Kevin MacLeod (incompetech.com). Licensed under Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+- Archivo original: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Gathering%20Darkness.mp3
+- Evidencia de licencia: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100849
+
+## Oppressive Gloom (`km-oppressive-gloom`)
+
+- Autor: Kevin MacLeod (incompetech.com)
+- Fuente: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100885
+- Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Modificaciones: Re-encoded to stereo MP3, 44.1 kHz, 128 kbps; duration and musical structure retained. No loop edits or cuts.
+- Crédito: "Oppressive Gloom" Kevin MacLeod (incompetech.com). Licensed under Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+- Archivo original: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Oppressive%20Gloom.mp3
+- Evidencia de licencia: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100885
 
 ## Presencia en la oscuridad (`presence`)
 
@@ -10,7 +68,7 @@ Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fij
 - Fuente: https://opengameart.org/content/ambient-horror-track-01
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Modificaciones: Composición obtenida de OpenGameArt; conversión a mono, ajuste de nivel y unión de bucle con fundido cruzado.
-- Archivo utilizado: https://opengameart.org/sites/default/files/ambient_horror_track01.ogg
+- Archivo original: https://opengameart.org/sites/default/files/ambient_horror_track01.ogg
 - Evidencia de licencia: https://opengameart.org/content/ambient-horror-track-01
 
 ## Páramo postapocalíptico (`hostile`)
@@ -19,7 +77,7 @@ Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fij
 - Fuente: https://opengameart.org/content/horror-atmosphere
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Modificaciones: Composición obtenida de OpenGameArt; extracto, conversión a mono, ajuste de nivel y unión de bucle con fundido cruzado.
-- Archivo utilizado: https://opengameart.org/sites/default/files/Juhani%20Junkala%20-%20Post%20Apocalyptic%20Wastelands%20%5BLoop%20Ready%5D.ogg
+- Archivo original: https://opengameart.org/sites/default/files/Juhani%20Junkala%20-%20Post%20Apocalyptic%20Wastelands%20%5BLoop%20Ready%5D.ogg
 - Evidencia de licencia: https://opengameart.org/content/horror-atmosphere
 
 ## Cavernas antiguas (`dungeon-air`)
@@ -28,7 +86,7 @@ Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fij
 - Fuente: https://opengameart.org/content/ancient-caverns-horror-ambient-loop
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Modificaciones: Composición obtenida de OpenGameArt; extracto, conversión a mono, ajuste de nivel y unión de bucle con fundido cruzado.
-- Archivo utilizado: https://opengameart.org/sites/default/files/caverns_0.ogg
+- Archivo original: https://opengameart.org/sites/default/files/caverns_0.ogg
 - Evidencia de licencia: https://opengameart.org/content/ancient-caverns-horror-ambient-loop
 
 ## Presencia subterránea (`underground`)
@@ -37,7 +95,7 @@ Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fij
 - Fuente: https://opengameart.org/content/horror-ambient
 - Licencia: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 - Modificaciones: Composición obtenida de OpenGameArt; conversión a mono, ajuste de nivel y unión de bucle con fundido cruzado.
-- Archivo utilizado: https://opengameart.org/sites/default/files/horror%20ambient_0.mp3
+- Archivo original: https://opengameart.org/sites/default/files/horror%20ambient_0.mp3
 - Evidencia de licencia: https://opengameart.org/content/horror-ambient
 
 ## Viento espectral (`cave-resonance`)
@@ -46,7 +104,7 @@ Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fij
 - Fuente: https://opengameart.org/content/scary-ambient-wind
 - Licencia: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 - Modificaciones: Composición obtenida de OpenGameArt; extracto, conversión a mono, ajuste de nivel y unión de bucle con fundido cruzado.
-- Archivo utilizado: https://opengameart.org/sites/default/files/Scary%20Ambient%20Wind.mp3
+- Archivo original: https://opengameart.org/sites/default/files/Scary%20Ambient%20Wind.mp3
 - Evidencia de licencia: https://opengameart.org/content/scary-ambient-wind
 
 ## Tensión industrial (`dark-sequence`)
@@ -55,7 +113,7 @@ Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fij
 - Fuente: https://opengameart.org/content/dark-ambient-loop-13
 - Licencia: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 - Modificaciones: Composición obtenida de OpenGameArt; extracto, conversión a mono, ajuste de nivel y unión de bucle con fundido cruzado.
-- Archivo utilizado: https://opengameart.org/sites/default/files/Dark%20_Atmosphere13_Looped_OGG.ogg
+- Archivo original: https://opengameart.org/sites/default/files/Dark%20_Atmosphere13_Looped_OGG.ogg
 - Evidencia de licencia: https://opengameart.org/content/dark-ambient-loop-13
 
 ## Piano y coro oscuro (`dissonance`)
@@ -64,7 +122,7 @@ Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fij
 - Fuente: https://opengameart.org/content/dark-horror-ambient-piano-choir
 - Licencia: [OGA-BY 3.0](https://opengameart.org/content/oga-by-30-faq)
 - Modificaciones: Composición obtenida de OpenGameArt; conversión a mono, ajuste de nivel y unión de bucle con fundido cruzado.
-- Archivo utilizado: https://opengameart.org/sites/default/files/dova_Eternal%20Terror_master_0.mp3
+- Archivo original: https://opengameart.org/sites/default/files/dova_Eternal%20Terror_master_0.mp3
 - Evidencia de licencia: https://opengameart.org/content/dark-horror-ambient-piano-choir
 
 ## Cementerio espacial (`suspense-bed`)
@@ -73,7 +131,7 @@ Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fij
 - Fuente: https://opengameart.org/content/space-graveyard-ambient-track
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Modificaciones: Composición obtenida de OpenGameArt; extracto, conversión a mono, ajuste de nivel y unión de bucle con fundido cruzado.
-- Archivo utilizado: https://opengameart.org/sites/default/files/space_graveyard_4.mp3
+- Archivo original: https://opengameart.org/sites/default/files/space_graveyard_4.mp3
 - Evidencia de licencia: https://opengameart.org/content/space-graveyard-ambient-track
 
 ## Tambores de guerra (`war-drums`)
@@ -82,7 +140,7 @@ Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fij
 - Fuente: https://opengameart.org/content/horde-war-drums-loop
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Modificaciones: Composición obtenida de OpenGameArt; conversión a mono, ajuste de nivel y unión de bucle con fundido cruzado.
-- Archivo utilizado: https://opengameart.org/sites/default/files/horde_war_drums_by_william_hector.wav
+- Archivo original: https://opengameart.org/sites/default/files/horde_war_drums_by_william_hector.wav
 - Evidencia de licencia: https://opengameart.org/content/horde-war-drums-loop
 
 ## Línea de combate (`battle-theme`)
@@ -91,7 +149,7 @@ Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fij
 - Fuente: https://opengameart.org/content/battle-line
 - Licencia: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 - Modificaciones: Composición obtenida de OpenGameArt; conversión a mono, ajuste de nivel y unión de bucle con fundido cruzado.
-- Archivo utilizado: https://opengameart.org/sites/default/files/Battle%20Line%20v1_0.mp3
+- Archivo original: https://opengameart.org/sites/default/files/Battle%20Line%20v1_0.mp3
 - Evidencia de licencia: https://opengameart.org/content/battle-line
 
 ## Latido acelerado (`heartbeat`)
@@ -114,7 +172,7 @@ Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fij
 - Fuente: https://freesound.org/people/kvgarlic/sounds/156826/
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Modificaciones: Edición previa: Porrumentzio. Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.
-- Archivo utilizado: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/birds.ogg
+- Archivo original: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/birds.ogg
 
 ## Barca de madera (`boat`)
 
@@ -122,7 +180,7 @@ Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fij
 - Fuente: https://freesound.org/people/Falcet/sounds/439365/
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Modificaciones: Edición previa: Porrumentzio. Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.
-- Archivo utilizado: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/boat.ogg
+- Archivo original: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/boat.ogg
 
 ## Calle y tráfico (`city`)
 
@@ -130,7 +188,7 @@ Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fij
 - Fuente: https://freesound.org/people/gezortenplotz/sounds/44796/
 - Licencia: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 - Modificaciones: Edición previa: Porrumentzio. Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.
-- Archivo utilizado: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/city.ogg
+- Archivo original: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/city.ogg
 
 ## Cafetería (`coffee-shop`)
 
@@ -138,7 +196,7 @@ Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fij
 - Fuente: https://soundbible.com/1664-Restaurant-Ambiance.html
 - Licencia: [Dominio público](https://creativecommons.org/publicdomain/mark/1.0/)
 - Modificaciones: Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.
-- Archivo utilizado: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/coffee-shop.ogg
+- Archivo original: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/coffee-shop.ogg
 
 ## Fuego de hogar (`fireplace`)
 
@@ -146,7 +204,7 @@ Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fij
 - Fuente: https://soundbible.com/1543-Fireplace.html
 - Licencia: [Dominio público](https://creativecommons.org/publicdomain/mark/1.0/)
 - Modificaciones: Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.
-- Archivo utilizado: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/fireplace.ogg
+- Archivo original: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/fireplace.ogg
 
 ## Lluvia (`rain`)
 
@@ -154,7 +212,7 @@ Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fij
 - Fuente: https://freesound.org/people/alex36917/sounds/524605/
 - Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - Modificaciones: Edición previa: Porrumentzio. Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.
-- Archivo utilizado: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/rain.ogg
+- Archivo original: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/rain.ogg
 
 ## Tormenta lejana (`storm`)
 
@@ -162,7 +220,7 @@ Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fij
 - Fuente: https://freesound.org/people/digifishmusic/sounds/41739/
 - Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - Modificaciones: Edición previa: Porrumentzio. Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.
-- Archivo utilizado: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/storm.ogg
+- Archivo original: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/storm.ogg
 
 ## Arroyo (`stream`)
 
@@ -170,7 +228,7 @@ Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fij
 - Fuente: https://freesound.org/people/gluckose/sounds/333987/
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Modificaciones: Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.
-- Archivo utilizado: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/stream.ogg
+- Archivo original: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/stream.ogg
 
 ## Noche de verano (`summer-night`)
 
@@ -178,7 +236,7 @@ Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fij
 - Fuente: https://soundbible.com/2083-Crickets-Chirping-At-Night.html
 - Licencia: [Dominio público](https://creativecommons.org/publicdomain/mark/1.0/)
 - Modificaciones: Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.
-- Archivo utilizado: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/summer-night.ogg
+- Archivo original: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/summer-night.ogg
 
 ## Dentro del tren (`train`)
 
@@ -186,7 +244,7 @@ Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fij
 - Fuente: https://freesound.org/people/SDLx/sounds/259988/
 - Licencia: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 - Modificaciones: Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.
-- Archivo utilizado: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/train.ogg
+- Archivo original: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/train.ogg
 
 ## Oleaje (`waves`)
 
@@ -194,7 +252,7 @@ Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fij
 - Fuente: https://freesound.org/people/Luftrum/sounds/48412/
 - Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - Modificaciones: Edición previa: Porrumentzio. Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.
-- Archivo utilizado: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/waves.ogg
+- Archivo original: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/waves.ogg
 
 ## Viento abierto (`wind`)
 
@@ -202,7 +260,7 @@ Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fij
 - Fuente: https://freesound.org/people/felix.blume/sounds/217506/
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Modificaciones: Edición previa: Porrumentzio. Ruido: extracto, conversión a mono, ajuste de nivel y unión con fundido cruzado.
-- Archivo utilizado: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/wind.ogg
+- Archivo original: https://raw.githubusercontent.com/rafaelmardojai/blanket/bbc88ed3b9dfa8b21805d77286f3183abf88f36f/data/resources/sounds/wind.ogg
 
 ## Llovizna (`soft-rain`)
 

@@ -12,7 +12,7 @@ Los recursos deben funcionar bajo la ruta de proyecto `/ruido/` y bajo la raíz 
 
 - Interfaz: biblioteca, mezcla, escenas, créditos y mensajes de estado.
 - Estado de aplicación: selección, volúmenes, escena actual y solicitudes pendientes.
-- Motor de audio: contexto, fuentes, ganancias, carga, cancelación y transiciones.
+- Motor de audio: contexto, fuentes de buffer para ambientes, elementos multimedia para música larga, ganancias compartidas, carga, cancelación y transiciones.
 - Catálogo: metadatos validados y archivos de audio estáticos.
 - Persistencia: lectura, validación y escritura de escenas en `localStorage`.
 
@@ -38,6 +38,7 @@ type Track = {
   defaultVolume: number;
   kind: "recorded" | "composition" | "synth";
   duration: number;
+  playback?: 'stream';
 };
 
 type Scene = {

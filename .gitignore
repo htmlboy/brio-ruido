@@ -19,3 +19,7 @@ ruido-escenas*.json
 .local/
 scratch/
 .DS_Store
+
+# Python tooling caches
+__pycache__/
+*.py[cod]

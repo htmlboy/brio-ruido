@@ -3,27 +3,27 @@ import type {Scene} from './model';
 export const examples: Scene[] = [
   {
     id: 'investigation', art: 'investigation', name: 'Investigación',
-    description: 'Dron industrial · cavernas',
+    description: 'Música sin percusión · cavernas',
     tracks: [
-      {trackId: 'dark-sequence', volume: .3},
+      {trackId: 'km-controlled-chaos-soft', volume: .34},
       {trackId: 'dungeon-air', volume: .36},
       {trackId: 'radio', volume: .07},
     ],
   },
   {
     id: 'threat', art: 'threat', name: 'Amenaza cercana',
-    description: 'Cuerdas · textura oscura · latido',
+    description: 'Piano grave · textura oscura · latido',
     tracks: [
-      {trackId: 'presence', volume: .36},
+      {trackId: 'km-long-note-two', volume: .32},
       {trackId: 'underground', volume: .26},
       {trackId: 'heartbeat', volume: .22},
     ],
   },
   {
     id: 'chase', art: 'city', name: 'Persecución',
-    description: 'Ritmo a 120 BPM · calle · motor',
+    description: 'Música con percusión · calle · motor',
     tracks: [
-      {trackId: 'pursuit', volume: .48},
+      {trackId: 'km-controlled-chaos', volume: .36},
       {trackId: 'city', volume: .24},
       {trackId: 'engine', volume: .14},
     ],
@@ -39,19 +39,19 @@ export const examples: Scene[] = [
   },
   {
     id: 'catacombs', art: 'dungeon', name: 'Catacumbas',
-    description: 'Viento espectral · cavernas',
+    description: 'Textura electrónica · cavernas',
     tracks: [
-      {trackId: 'cave-resonance', volume: .34},
+      {trackId: 'km-gathering-darkness', volume: .28},
       {trackId: 'dungeon-air', volume: .28},
       {trackId: 'underground', volume: .2},
     ],
   },
   {
     id: 'space', art: 'space', name: 'Nave a la deriva',
-    description: 'Motor · interferencias · fondo hostil',
+    description: 'Motor · interferencias · música oscura',
     tracks: [
       {trackId: 'engine', volume: .25},
-      {trackId: 'hostile', volume: .3},
+      {trackId: 'km-long-note-three', volume: .32},
       {trackId: 'radio', volume: .17},
     ],
   },

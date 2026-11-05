@@ -19,7 +19,7 @@ El caso principal es una partida presencial o una sesión en la que el usuario y
 ## MVP
 
 - Aplicación estática, inicialmente en español, publicada en GitHub Pages.
-- Biblioteca de 36 pistas con licencias documentadas; incluye tensión, horror y acción además de los ambientes cotidianos.
+- Biblioteca de 42 pistas con licencias documentadas; incluye tensión, horror y acción además de los ambientes cotidianos.
 - Categorías, búsqueda por nombre y etiquetas, y filtro por categoría.
 - Mezcla de hasta ocho pistas distintas simultáneas.
 - Reproducción en bucle, volumen por pista y volumen general.
@@ -51,7 +51,7 @@ En una prueba manual, una persona debe poder crear su primera mezcla sin instruc
 ## Decisiones pendientes
 
 - Validación visual e interacción en dispositivos reales; dirección visual definida en [DESIGN-REVIEW.md](../DESIGN-REVIEW.md).
-- Escucha de los bucles y escenas en dispositivos reales; catálogo actual de 36 pistas y ocho escenas.
+- Escucha de los bucles y escenas en dispositivos reales; catálogo actual de 42 pistas y ocho escenas.
 - Activar Enforce HTTPS para `ruido.briorol.com`; DNS, dominio personalizado, certificado y entrega de recursos ya verificados. Estado en [DOMAIN.md](../DOMAIN.md).
 
 Las decisiones pendientes no bloquean la estructura del producto ni el trabajo técnico inicial.
