@@ -37,3 +37,11 @@ Fecha: 2026-11-05. Estado: configurado y verificado; pendiente activar la redire
 Ruido se publicará en `ruido.briorol.com`, con DNS gestionado en Cloudflare y alojamiento en GitHub Pages. No se migra el alojamiento. El CNAME previsto es `ruido` → `htmlboy.github.io`, inicialmente sin proxy.
 
 Los ajustes de DNS, dominio personalizado y las comprobaciones posteriores se documentan en [DOMAIN.md](DOMAIN.md). El CNAME, el dominio personalizado y el certificado se han verificado; la web y los 36 audios responden por HTTPS. Las escenas locales se trasladan mediante exportación/importación JSON al cambiar de origen.
+
+## D-008 — Referencia de dirección musical
+
+Fecha: 2026-11-05. Estado: investigación; propuestas pendientes de evaluación.
+
+Delta Green Audio Console es una referencia para la selección dramática y el uso de escena más intensidad. Las publicaciones del autor identifican la música de Kevin MacLeod / Incompetech bajo CC BY 4.0 y separan música de efectos generados en el navegador. No se ha confirmado su lista de pistas exacta.
+
+Se documentan candidatas del catálogo oficial para audición y las implicaciones de reproducir música larga. La intensidad, los efectos puntuales y una vista de sesión son propuestas para especificar, no cambios aprobados o implementados. Referencia: [DELTA-GREEN-AUDIO.md](references/DELTA-GREEN-AUDIO.md).
