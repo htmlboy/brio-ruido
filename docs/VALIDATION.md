@@ -22,7 +22,7 @@ La identidad visual usa tonos oscuros, acentos verde claro, ilustraciones vector
 
 ## Validación pendiente
 
-El entorno no ofrece el control de navegador requerido para las pruebas visuales e interactivas. Por tanto, aún no se acredita la matriz Chrome/Firefox/Safari/Edge, Safari iOS/Chrome Android, la navegación completa con lector de pantalla, la escucha de tres bucles por pista ni la prueba de diez minutos en dispositivos reales. Las pruebas automatizadas del motor usan un contexto de audio simulado; no sustituyen una escucha real.
+Pendientes de validación visual, interactiva y auditiva en dispositivos reales: la matriz Chrome/Firefox/Safari/Edge, Safari iOS/Chrome Android, la navegación completa con lector de pantalla, la escucha de tres bucles por pista ni la prueba de diez minutos en dispositivos reales. Las pruebas automatizadas del motor usan un contexto de audio simulado; no sustituyen una escucha real.
 
 Esta es una primera versión para revisión, no la declaración de que todos los criterios manuales de aceptación del MVP estén superados.
 
@@ -30,7 +30,7 @@ Esta es una primera versión para revisión, no la declaración de que todos los
 
 Primera versión desplegada en **https://htmlboy.github.io/ruido/** desde el repositorio público `htmlboy/ruido`.
 
-El usuario activó GitHub Pages con origen GitHub Actions. El flujo [41929712441](https://github.com/htmlboy/ruido/actions/runs/41929712441) completó instalación, las 16 pruebas, compilación y despliegue del commit `9bd9faf`.
+GitHub Pages publica con origen GitHub Actions. El flujo [41929712441](https://github.com/htmlboy/ruido/actions/runs/41929712441) completó instalación, las 16 pruebas, compilación y despliegue del commit `9bd9faf`.
 
 El código y la interfaz originales se distribuyen con todos los derechos reservados; los audios conservan sus licencias y se incluyen avisos de dependencias de terceros. Las limitaciones de validación manual indicadas arriba siguen pendientes.
 
@@ -38,7 +38,7 @@ El código y la interfaz originales se distribuyen con todos los derechos reserv
 
 Se solicita `navigator.audioSession.type = 'playback'` antes de activar Web Audio, cuando la API está disponible, para evitar la ruta de audio ambiental que puede quedar silenciada en iOS. También se permite reanudar el estado `interrupted` de Safari mediante un nuevo gesto del usuario. La API opcional puede fallar sin impedir la reproducción en otros navegadores.
 
-19 pruebas automáticas pasan, incluidas tres regresiones para el modo de sesión, la API no soportada y la recuperación de una interrupción. La confirmación auditiva en el dispositivo del usuario sigue pendiente.
+19 pruebas automáticas pasan, incluidas tres regresiones para el modo de sesión, la API no soportada y la recuperación de una interrupción. La confirmación auditiva en un dispositivo real sigue pendiente.
 
 ## Revisión funcional de diseño y ampliación dramática
 
@@ -48,7 +48,7 @@ Se solicita `navigator.audioSession.type = 'playback'` antes de activar Web Audi
 - 21 pruebas automáticas: se añaden verificación de fuentes/licencias por archivo, cobertura de categorías dramáticas y continuidad de identificadores antiguos.
 - Los 12 archivos nuevos se decodifican con ffmpeg, contienen señal y no saturan individualmente. El catálogo ocupa aproximadamente 10,7 MiB comprimido. Las pruebas numéricas no sustituyen una escucha.
 - Los buffers del catálogo completo equivalen a 97 MiB a 24 kHz. El navegador puede decodificar a una frecuencia superior (por ejemplo, unos 194 MiB a 48 kHz); la caché mide los buffers reales y descarta los inactivos al superar su objetivo de 128 MiB. Las mezclas activas y transiciones tienen prioridad sobre ese objetivo. La revisión de memoria y escucha en dispositivos reales sigue pendiente.
-- El entorno sigue sin ofrecer el control de navegador requerido para una comprobación visual e interactiva real. La adaptación responsive, el contraste y la semántica se han revisado en el código; su comprobación en navegador queda pendiente.
+- La adaptación responsive, el contraste y la semántica se han revisado en el código; la comprobación visual e interactiva en navegador queda pendiente.
 
 La selección inicial de Freesound no se distribuye: las descargas estaban bloqueadas. Las fuentes efectivamente utilizadas, sus autores, licencias, enlaces y huellas están documentadas en `docs/audio/dramatic-sources.json` y `src/catalog.json`.
 

@@ -13,8 +13,6 @@ No se migra el alojamiento a Cloudflare. El subdominio apunta al alojamiento act
 
 Pendiente de configurar. La última comprobación devolvió NXDOMAIN para `ruido.briorol.com` y GitHub Pages sigue sin dominio personalizado. No se han modificado registros DNS ni el dominio activo de Pages.
 
-No se encontró un conector instalable de Cloudflare en el catálogo disponible al buscar «Cloudflare» y «DNS». La integración de GitHub devuelve 403 al intentar configurar el dominio mediante `PUT /repos/htmlboy/ruido/pages`.
-
 ## Configuración manual
 
 En Cloudflare, zona `briorol.com`, añadir este registro:

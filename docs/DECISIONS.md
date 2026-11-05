@@ -8,21 +8,21 @@ Estado: vigente. React, TypeScript y Vite; audio con Web Audio API; escenas vers
 
 ## D-002 — Publicación en GitHub Pages
 
-Estado: vigente. Repositorio público `htmlboy/ruido`, publicación desde GitHub Actions. El usuario activó Pages tras los errores de permisos de la integración. Los recursos usan rutas relativas para permitir pasar de `/ruido/` a un dominio propio.
+Estado: vigente. Repositorio público `htmlboy/ruido`, publicación desde GitHub Actions. Pages se configura para publicar desde GitHub Actions. Los recursos usan rutas relativas para permitir pasar de `/ruido/` a un dominio propio.
 
 ## D-003 — Licencia restrictiva del código
 
-Estado: vigente por petición del usuario. Código e interfaz originales: todos los derechos reservados; uso personal de la web oficial permitido. Los audios y dependencias conservan sus licencias. La licencia MIT aplicada inicialmente no se revoca para versiones ya distribuidas bajo ella. Referencia: `LICENSE`.
+Estado: vigente. Código e interfaz originales: todos los derechos reservados; uso personal de la web oficial permitido. Los audios y dependencias conservan sus licencias. La licencia MIT aplicada inicialmente no se revoca para versiones ya distribuidas bajo ella. Referencia: `LICENSE`.
 
 ## D-004 — Audio de iOS
 
-Estado: implementada; escucha real pendiente de confirmación. Se solicita la sesión `playback` cuando existe la API y se admite reanudar `interrupted`. El usuario también señaló un posible bloqueo de contenido. No se considera demostrada una única causa de la incidencia original. Referencia: `VALIDATION.md`.
+Estado: implementada; escucha real pendiente de confirmación. Se solicita la sesión `playback` cuando existe la API y se admite reanudar `interrupted`. Los bloqueadores de contenido también pueden impedir la descarga del audio. No se considera demostrada una única causa de la incidencia original. Referencia: `VALIDATION.md`.
 
 ## D-005 — Herramienta de mezcla, sin presentación promocional
 
 Fecha: 2026-11-05. Estado: publicada, commit `11a90b2`.
 
-A petición del usuario se retiran eslóganes, hero, onda ficticia, ilustraciones y fuentes externas. La biblioteca pasa a filas; las escenas son compactas y el transporte queda accesible al desplazar. En móvil la mezcla se abre desde el transporte inferior. Se priorizan acciones, legibilidad y estados reales. La revisión fue heurística; no había un preset especializado instalado. Referencia: `DESIGN-REVIEW.md`.
+Se retiran eslóganes, hero, onda ficticia, ilustraciones y fuentes externas. La biblioteca pasa a filas; las escenas son compactas y el transporte queda accesible al desplazar. En móvil la mezcla se abre desde el transporte inferior. Se priorizan acciones, legibilidad y estados reales. La revisión es heurística y la validación visual en dispositivos reales queda pendiente. Referencia: `DESIGN-REVIEW.md`.
 
 ## D-006 — Biblioteca dramática
 
@@ -34,6 +34,6 @@ Se mantienen las 24 pistas anteriores y sus identificadores y se añaden 12: die
 
 Fecha: 2026-11-05. Estado: definido; configuración externa pendiente.
 
-El usuario ha registrado `briorol.com` y decide alojar Ruido en `ruido.briorol.com`, con DNS gestionado en Cloudflare y alojamiento en GitHub Pages. No se migra el alojamiento. El CNAME previsto es `ruido` → `htmlboy.github.io`, inicialmente sin proxy.
+Ruido se publicará en `ruido.briorol.com`, con DNS gestionado en Cloudflare y alojamiento en GitHub Pages. No se migra el alojamiento. El CNAME previsto es `ruido` → `htmlboy.github.io`, inicialmente sin proxy.
 
-No hay conector de Cloudflare en el catálogo disponible y la integración de GitHub devuelve 403 al configurar el dominio personalizado. Los ajustes manuales y las comprobaciones posteriores se documentan en [DOMAIN.md](DOMAIN.md). No se ha cambiado DNS ni el dominio activo. Las escenas locales se trasladan mediante exportación/importación JSON al cambiar de origen.
+Los ajustes de DNS, dominio personalizado y las comprobaciones posteriores se documentan en [DOMAIN.md](DOMAIN.md). No se ha cambiado DNS ni el dominio activo. Las escenas locales se trasladan mediante exportación/importación JSON al cambiar de origen.

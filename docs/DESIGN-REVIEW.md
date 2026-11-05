@@ -6,7 +6,7 @@ La primera versión empleaba recursos de una landing promocional dentro de una h
 
 Las tarjetas reservaban más espacio al icono que a identificar y controlar sonidos. En móvil, la mesa vacía se colocaba antes de la biblioteca completa. La biblioteca cubría principalmente lluvia, naturaleza y fondos suaves; faltaban materiales y escenas para amenaza, persecución y conflicto.
 
-No había una skill especializada de diseño instalada. La revisión usa jerarquía de tareas, densidad legible, contraste, consistencia de controles y accesibilidad por teclado como criterios explícitos, sin atribuirla a un preset inexistente.
+La revisión usa jerarquía de tareas, densidad legible, contraste, consistencia de controles y accesibilidad por teclado como criterios explícitos.
 
 ## Dirección
 

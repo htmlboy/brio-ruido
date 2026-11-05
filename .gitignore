@@ -3,3 +3,19 @@ dist/
 *.tsbuildinfo
 .env*
 scripts/ship.py
+
+# Local credentials and deployment state
+.dev.vars*
+.wrangler/
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+
+# Personal exports and local working notes
+ruido-escenas*.json
+.local/
+scratch/
+.DS_Store
