@@ -71,3 +71,24 @@ Para música de varios minutos, evaluar reproducción con HTMLAudioElement conec
 ## Validación
 
 Seis pruebas Python sin red comprueban la integridad del inventario y de los créditos, la identidad y duración de los temas, el rechazo de nombres de archivo inseguros, los metadatos opcionales y el aislamiento de los archivos respecto a `public/` y Git. Se incorporan al flujo de comprobación de GitHub Actions. La descarga piloto se verificó contra los archivos reales.
+
+## Propuesta concreta de almacén de medios
+
+Pendiente de configurar; no se ha creado ni publicado ningún bucket.
+
+- Bucket propuesto: `briorol-audio`.
+- Dominio público propuesto: `audio.briorol.com`.
+- Prefijo de objetos: `incompetech/`.
+- Archivo: `incompetech/<ISRC>.mp3`, acompañado de su recibo y atribuciones.
+- CORS para Ruido: plantilla en `config/r2-cors.json`, con GET/HEAD y soporte de lectura por rangos. El dominio público se conecta desde la configuración del bucket; no se inventa un CNAME de R2.
+
+Las credenciales de escritura se suministran mediante el almacenamiento de secretos del entorno de ejecución o despliegue. Nunca se incluyen en el repositorio, en capturas, en recibos o en la configuración pública de la web. El endpoint de la cuenta se obtiene del panel de R2.
+
+Una carga inicial con una CLI S3 configurada usaría esta forma, sin borrar objetos existentes:
+
+```sh
+aws s3 sync .local/incompetech/ s3://briorol-audio/incompetech/ \
+  --endpoint-url 'https://<ACCOUNT_ID>.r2.cloudflarestorage.com'
+```
+
+Tras la carga: comprobar el dominio, Content-Type de los MP3, rangos, CORS desde Ruido y créditos antes de activar URLs de medios en la aplicación. Esta plantilla no implica que la publicación esté realizada ni que las credenciales estén disponibles.
