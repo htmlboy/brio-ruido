@@ -32,22 +32,13 @@ La principal hipótesis es que una selección musical coherente y controlable ap
 
 El tercer papel está fuera del MVP actual y necesita una especificación propia antes de implementarse. Tampoco se adopta automáticamente la estética temática, el catálogo, el código, Discord, Spotify o YouTube de la referencia.
 
-## Candidatas de Incompetech para audición
+## Alcance de incorporación de audio
 
-Las siguientes pistas se han identificado en el catálogo oficial. **No están confirmadas como pistas utilizadas por Delta Green Audio Console.** La función propuesta es una recomendación editorial basada en la descripción del compositor; queda pendiente escuchar y evaluar las piezas.
+Incorporar exclusivamente las pistas que aparecen en Delta Green Audio Console y cuya licencia permita su uso con los créditos correspondientes. No importar el catálogo completo de Incompetech ni añadir temas del mismo autor por semejanza de estilo.
 
-| Pista | ISRC | Duración indicada | Función propuesta | Fuente oficial |
-| --- | --- | --- | --- | --- |
-| Controlled Chaos - no percussion | USUAN1200060 | 5:51 | Investigación inquietante, sin pulso de percusión | [Ficha](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200060) |
-| Controlled Chaos | USUAN1200059 | 5:52 | Aumento de tensión, sintetizador y percusión a 80 BPM | [Ficha](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200059) |
-| Long Note Two | USUAN1100420 | 7:42 | Horror contenido, piano irregular y graves | [Ficha](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100420) |
-| Long Note Three | USUAN1100424 | 3:12 | Fondo oscuro y sostenido para diálogo | [Ficha](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100424) |
-| Oppressive Gloom | USUAN1100885 | 3:19 | Drama sombrío, marcha lenta y consecuencias | [Ficha](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100885) |
-| Gathering Darkness | USUAN1100849 | 4:25 | Horror electrónico y perturbación | [Ficha](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100849) |
+La lista exacta de la consola sigue pendiente de verificación. Identificar título y versión de cada pista antes de descargar o incorporarla. Confirmar la ficha oficial y conservar autor, licencia, modificaciones y procedencia. Los títulos sugeridos anteriormente por afinidad musical no constituyen ese inventario y no se consideran seleccionados.
 
-Las fichas indican CC BY 4.0. [Incompetech explica su modalidad gratuita con atribución](https://incompetech.com/music/royalty-free/licenses/). Antes de distribuir un archivo concreto, conservar la ficha, el crédito del compositor, el enlace de licencia, las modificaciones y la huella del archivo descargado, como en el catálogo actual de Ruido.
-
-El compositor señala que Oppressive Gloom necesita recortar el final para repetir bien. Las dos versiones de Controlled Chaos son candidatas para comparar niveles de intensidad; su duración parecida no demuestra que sean stems sincronizados o que puedan alinearse sin comprobación.
+[Incompetech explica su modalidad gratuita con atribución](https://incompetech.com/music/royalty-free/licenses/). La atribución al compositor identifica la fuente general, pero no demuestra qué canciones concretas utiliza la consola.
 
 ## Propuestas para especificar después de la audición
 
@@ -71,4 +62,4 @@ Antes de incorporar piezas largas, comparar reproducción mediante HTMLAudioElem
 
 ## Resultado y límites
 
-La fuente musical y el enfoque narrativo están documentados. No se han añadido audios, copiado assets de la referencia ni cambiado el producto publicado. La siguiente etapa propuesta es audicionar una selección del catálogo oficial y definir requisitos de intensidad, separando esa decisión de la migración de dominios de Brío.
+La fuente musical y el enfoque narrativo están documentados. No se han añadido audios, copiado assets de la referencia ni cambiado el producto publicado. La siguiente etapa es verificar la lista concreta de la consola y audicionar solo sus pistas reutilizables, además de definir requisitos de intensidad, separando esa decisión de la migración de dominios de Brío.
