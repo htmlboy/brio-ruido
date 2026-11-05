@@ -55,3 +55,9 @@ La selección inicial de Freesound no se distribuye: las descargas estaban bloqu
 ## Publicación de la revisión del 5 de noviembre
 
 El flujo [41988158509](https://github.com/htmlboy/ruido/actions/runs/41988158509) completó pruebas, compilación y despliegue del commit `11a90b2`. Se comprobó por HTTP que el bundle público contiene la interfaz nueva y que los doce audios añadidos coinciden por SHA-256 con los archivos preparados. Esto no sustituye la revisión visual ni la escucha en dispositivo real.
+
+## Dominio propio verificado
+
+El 2026-11-05 se verificó el CNAME público `ruido.briorol.com` → `htmlboy.github.io`, el dominio personalizado en GitHub Pages y el certificado aprobado. La portada devuelve HTTP 200 por HTTPS con validación TLS. Se comprobaron por HTTP HEAD 42 recursos, incluidos los 36 MP3, JavaScript, estilos, favicon y avisos de licencia.
+
+Pendiente activar **Enforce HTTPS**: la respuesta por HTTP aún es 200, sin redirección a HTTPS. Esto no sustituye una comprobación auditiva ni de interacción en navegador.

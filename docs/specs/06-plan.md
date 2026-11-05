@@ -4,7 +4,7 @@ Estado: fases de implementación 1–6 realizadas y primera versión publicada. 
 
 ## Próximas tareas
 
-- Configurar `ruido.briorol.com` en Cloudflare y GitHub Pages según [DOMAIN.md](../DOMAIN.md); verificar DNS, HTTPS y recursos.
+- Activar Enforce HTTPS en GitHub Pages. DNS, dominio personalizado, certificado y recursos de `ruido.briorol.com` ya verificados; detalles en [DOMAIN.md](../DOMAIN.md).
 - Escucha real de las 36 pistas y sus uniones; revisar el equilibrio de las ocho escenas.
 - Validar diseño, teclado, lector de pantalla y reproducción en escritorio y móvil.
 - Comprobar memoria y continuidad de audio en sesiones prolongadas.

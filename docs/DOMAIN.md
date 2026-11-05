@@ -11,7 +11,16 @@ No se migra el alojamiento a Cloudflare. El subdominio apunta al alojamiento act
 
 ## Estado
 
-Pendiente de configurar. La última comprobación devolvió NXDOMAIN para `ruido.briorol.com` y GitHub Pages sigue sin dominio personalizado. No se han modificado registros DNS ni el dominio activo de Pages.
+Configurado y verificado el 2026-11-05:
+
+- CNAME público: `ruido.briorol.com` → `htmlboy.github.io`.
+- GitHub Pages registra el dominio personalizado y el sitio está publicado.
+- Certificado aprobado para `ruido.briorol.com`, con vencimiento informado el 2027-02-03.
+- `https://ruido.briorol.com/` devuelve HTTP 200 con validación TLS.
+- Los 42 recursos comprobados, incluidos los 36 MP3, responden correctamente por HTTPS.
+- **Pendiente: activar Enforce HTTPS en GitHub Pages**. Actualmente HTTP también sirve la página sin redirigir.
+
+Estas comprobaciones verifican entrega de recursos; la escucha e interacción en dispositivos reales se validan por separado.
 
 ## Configuración manual
 

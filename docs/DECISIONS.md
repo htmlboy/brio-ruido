@@ -32,8 +32,8 @@ Se mantienen las 24 pistas anteriores y sus identificadores y se añaden 12: die
 
 ## D-007 — Dominio propio
 
-Fecha: 2026-11-05. Estado: definido; configuración externa pendiente.
+Fecha: 2026-11-05. Estado: configurado y verificado; pendiente activar la redirección obligatoria a HTTPS.
 
 Ruido se publicará en `ruido.briorol.com`, con DNS gestionado en Cloudflare y alojamiento en GitHub Pages. No se migra el alojamiento. El CNAME previsto es `ruido` → `htmlboy.github.io`, inicialmente sin proxy.
 
-Los ajustes de DNS, dominio personalizado y las comprobaciones posteriores se documentan en [DOMAIN.md](DOMAIN.md). No se ha cambiado DNS ni el dominio activo. Las escenas locales se trasladan mediante exportación/importación JSON al cambiar de origen.
+Los ajustes de DNS, dominio personalizado y las comprobaciones posteriores se documentan en [DOMAIN.md](DOMAIN.md). El CNAME, el dominio personalizado y el certificado se han verificado; la web y los 36 audios responden por HTTPS. Las escenas locales se trasladan mediante exportación/importación JSON al cambiar de origen.

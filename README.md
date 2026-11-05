@@ -2,7 +2,7 @@
 
 **Ambientes para tus historias.**
 
-[Abre Ruido](https://htmlboy.github.io/ruido/) · [Especificaciones](docs/specs/01-producto.md) · [Créditos de audio](ATTRIBUTIONS.md)
+[Abre Ruido](https://ruido.briorol.com/) · [Especificaciones](docs/specs/01-producto.md) · [Créditos de audio](ATTRIBUTIONS.md)
 
 Ruido es una herramienta web para crear paisajes sonoros combinando pistas de audio en bucle. Mezcla lluvia, viento, naturaleza, calles, multitudes y fondos musicales para dar ambiente a tus partidas de rol.
 
@@ -10,7 +10,7 @@ Cada pista tiene su propio volumen y puede activarse o detenerse de forma indepe
 
 ## Primera versión
 
-Primera versión publicada en **https://htmlboy.github.io/ruido/**. Las pruebas y la compilación se ejecutan también en GitHub Actions.
+Primera versión publicada en **https://ruido.briorol.com/**. Las pruebas y la compilación se ejecutan también en GitHub Actions.
 
 - 36 pistas alojadas con la aplicación: grabaciones, composiciones de terceros y capas de síntesis original.
 - Categorías de tensión, horror y acción: percusión de guerra, cuerdas disonantes, piano y coro, drones y fondos postapocalípticos.
