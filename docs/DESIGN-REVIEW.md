@@ -36,3 +36,7 @@ Se añaden doce pistas: diez composiciones descargadas de OpenGameArt con licenc
 ## Ajuste posterior: identificación ilustrada de escenas
 
 Se recuperan las ilustraciones por su utilidad para identificar escenas, con un repertorio compartido de 16 imágenes también seleccionables en escenas personales. Se mantienen el transporte, las filas de biblioteca y el panel de mezcla. En móvil las escenas se recorren horizontalmente para contener la altura del bloque. Esta decisión sustituye la retirada de imágenes del primer rediseño, conservando la eliminación de eslóganes y decoración sin función. Detalle en [SCENE-ART.md](SCENE-ART.md).
+
+## Aplicación a la familia Brío
+
+Se aplica el logo independiente de Ruido y se coloca Brío como procedencia separada en el pie. Plex sustituye a la tipografía del sistema. El fondo oscuro se mantiene para la herramienta, con tinta cálida, texto de color papel y un acento derivado del rojo de Brío. Se reducen los marcos de escenas, filtros y mezcla; las filas de pistas y los campos conservan las delimitaciones útiles. Las ilustraciones siguen identificando escenas. La firma es Javier U y el contacto, Discord `javier_u`. La cabecera se adapta a dos filas en móvil estrecho. Criterio y tokens: [FAMILY-IDENTITY.md](FAMILY-IDENTITY.md).

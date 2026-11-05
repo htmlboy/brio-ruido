@@ -80,3 +80,12 @@ Se añaden pruebas de metadatos y procedencia de la selección y diez casos de r
 - 16 escenas con identificadores únicos y referencias a archivos disponibles: seis de aventura, ocho de tensión y dos cotidianas. Las escenas anteriores mantienen sus IDs.
 - 40 pruebas automatizadas superadas, incluidos filtros por tono, variedad de ilustraciones y compatibilidad de datos guardados. Compilación de producción correcta.
 - Se mantiene pendiente la escucha de mezclas y uniones en dispositivos reales; las verificaciones automáticas no certifican el equilibrio subjetivo ni la salida de audio de Safari/iOS.
+
+## Aplicación de la familia Brío
+
+- Compilación de producción correcta y 40 pruebas existentes superadas.
+- Navegador a 320, 390, 760, 1024 y 1440 px, sin desbordamiento horizontal de página; logos y fuente local cargados.
+- Comprobados: búsqueda, reproducción de Lluvia, volumen por pista, guardado y persistencia tras recargar, parada, ayuda y apertura/cierre de mezcla móvil.
+- Capturas en `docs/previews/ruido-family-desktop.png`, `ruido-family-mobile.png` y `ruido-family-mixer-mobile.png`.
+- Pares principales de texto/acción con contraste calculado en `FAMILY-IDENTITY.md`; esto no equivale a una auditoría integral de accesibilidad.
+- Sin cambios en audio, catálogo, escenas de ejemplo o formato de guardado; publicación sin source maps.
