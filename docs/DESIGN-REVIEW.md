@@ -27,8 +27,12 @@ Ampliar con capas para tensión, horror y acción, y escenarios de investigació
 
 Mantener los identificadores existentes para que las escenas guardadas sigan funcionando. Documentar los nuevos archivos y conservar las licencias independientes del audio. Las adiciones sintetizadas se identifican como síntesis; no se presentan como grabaciones.
 
-## Resultado de esta revisión
+## Resultado de la revisión inicial
 
 La interfaz usa filas de pistas, ocho botones de escenas sin ilustraciones y una mesa de mezcla. El transporte queda fijo al desplazar en escritorio y en la parte inferior en móvil. En móvil la mezcla se abre con un control dedicado, sin ocupar la primera pantalla cuando está vacía. Se eliminan dependencias de Google Fonts.
 
 Se añaden doce pistas: diez composiciones descargadas de OpenGameArt con licencia CC0, CC BY 3.0 u OGA-BY 3.0, y dos capas sintetizadas originales (latido y persecución). La selección inicial de Freesound se descarta porque sus archivos no se pudieron descargar; no se incluyen candidatos sin archivo utilizable. Las fuentes de lanzamiento están en `docs/audio/dramatic-sources.json`.
+
+## Ajuste posterior: identificación ilustrada de escenas
+
+Se recuperan las ilustraciones por su utilidad para identificar escenas, con un repertorio compartido de 16 imágenes también seleccionables en escenas personales. Se mantienen el transporte, las filas de biblioteca y el panel de mezcla. En móvil las escenas se recorren horizontalmente para contener la altura del bloque. Esta decisión sustituye la retirada de imágenes del primer rediseño, conservando la eliminación de eslóganes y decoración sin función. Detalle en [SCENE-ART.md](SCENE-ART.md).
