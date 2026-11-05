@@ -73,3 +73,10 @@ El repertorio se ha renderizado en una hoja de contacto y revisado visualmente. 
 Los seis MP3 completos de Incompetech se han verificado con ffprobe, en estéreo, con duración consistente con el catálogo y huellas SHA-256 coincidentes. Ocupan 27,8 MiB. El catálogo activo tiene 42 pistas y ocho escenas; todos los identificadores anteriores se conservan.
 
 Se añaden pruebas de metadatos y procedencia de la selección y diez casos de reproducción musical con elementos simulados: activación síncrona desde el gesto, ausencia de buffers PCM para música, cancelación, preparación silenciosa, fallo de destino, liberación de medios, prioridad de la última escena, continuidad de posición, ganancias y reanudación. La audición real y la interacción multimedia en Safari/iOS siguen pendientes. No se interpreta una comprobación de archivos o una simulación como prueba de sonido físico.
+
+## Ampliación de aventura y escenas — 2026-11-05
+
+- Catálogo de 54 pistas, con 18 composiciones completas de Incompetech bajo CC BY 4.0. Verificados SHA-256, estéreo y duraciones con ffprobe para las 18.
+- 16 escenas con identificadores únicos y referencias a archivos disponibles: seis de aventura, ocho de tensión y dos cotidianas. Las escenas anteriores mantienen sus IDs.
+- 40 pruebas automatizadas superadas, incluidos filtros por tono, variedad de ilustraciones y compatibilidad de datos guardados. Compilación de producción correcta.
+- Se mantiene pendiente la escucha de mezclas y uniones en dispositivos reales; las verificaciones automáticas no certifican el equilibrio subjetivo ni la salida de audio de Safari/iOS.

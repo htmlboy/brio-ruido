@@ -53,3 +53,11 @@ Fecha: 2026-11-05. Estado: implementada.
 Se elige una selección editorial acotada de seis composiciones de Kevin MacLeod / Incompetech, con CC BY 4.0, créditos y fuentes por pista. No se importa todo el catálogo ni se presenta la selección como la lista verificada de Delta Green Audio Console. Se conservan los títulos y las estructuras completas; se recodifica a MP3 estéreo de 128 kbps. El conjunto añade 27,8 MiB y se aloja con la aplicación, sin R2.
 
 La música larga usa elementos multimedia conectados al grafo de Web Audio; los ambientes siguen en buffers. Se conservan ganancias, parada, carga cancelable y continuidad de las pistas compartidas. Oppressive Gloom queda disponible para crear mezclas de drama y consecuencias. Referencia: [MUSIC-SELECTION.md](MUSIC-SELECTION.md).
+
+## D-011 — Aventura y variedad de escenas
+
+Fecha: 2026-11-05. Estado: implementada.
+
+Se amplía la selección musical de seis a 18 piezas completas de Kevin MacLeod, conservando CC BY 4.0, fuentes oficiales, créditos y hashes individuales. Siete de las nuevas composiciones cubren viaje, fantasía, exploración y descanso; las restantes amplían acción heroica, batalla, huida, infiltración y ritual. No se importa el catálogo completo. La biblioteca suma 54 pistas y añade la categoría Aventura.
+
+Las escenas pasan de ocho a 16, con seis de aventura, ocho de tensión y dos cotidianas. Los filtros de tono y el despliegue opcional permiten ampliar la selección sin alargar de entrada toda la página. Las ilustraciones pueden repetirse si el entorno lo justifica. El tono es metadato de las escenas de ejemplo; no cambia el formato de guardado ni obliga a clasificar escenas personales.

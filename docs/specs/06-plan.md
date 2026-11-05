@@ -5,7 +5,7 @@ Estado: fases de implementación 1–6 realizadas y primera versión publicada. 
 ## Próximas tareas
 
 - Activar Enforce HTTPS en GitHub Pages. DNS, dominio personalizado, certificado y recursos de `ruido.briorol.com` ya verificados; detalles en [DOMAIN.md](../DOMAIN.md).
-- Escucha real de las 36 pistas y sus uniones; revisar el equilibrio de las ocho escenas.
+- Escucha real de las 54 pistas y sus uniones; revisar el equilibrio de las 16 escenas.
 - Validar diseño, teclado, lector de pantalla y reproducción en escritorio y móvil.
 - Comprobar memoria y continuidad de audio en sesiones prolongadas.
 

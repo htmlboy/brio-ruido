@@ -3,9 +3,9 @@ import assert from 'node:assert/strict';
 import {existsSync,readFileSync} from 'node:fs';
 import {parseSaved,validLayers,searchTracks,type Track} from '../src/model';
 import catalog from '../src/catalog.json';
-import {examples} from '../src/scenes';
+import {examples,scenesForTone} from '../src/scenes';
 const tracks=catalog as Track[];
-test('catalog IDs, files, provenance, volumes and durations are valid',()=>{assert.equal(new Set(tracks.map(t=>t.id)).size,tracks.length);assert.equal(tracks.length,42);for(const t of tracks){assert.ok(existsSync(`public/${t.src}`),t.id);assert.ok(t.duration>2);assert.ok(t.defaultVolume>=0&&t.defaultVolume<=1);assert.match(t.sourceUrl,/^https:\/\//);assert.match(t.licenseUrl,/^https:\/\//);assert.ok(t.author);assert.ok(t.modifications);assert.ok(readFileSync('ATTRIBUTIONS.md','utf8').includes(t.sourceUrl))}});
+test('catalog IDs, files, provenance, volumes and durations are valid',()=>{assert.equal(new Set(tracks.map(t=>t.id)).size,tracks.length);assert.equal(tracks.length,54);for(const t of tracks){assert.ok(existsSync(`public/${t.src}`),t.id);assert.ok(t.duration>2);assert.ok(t.defaultVolume>=0&&t.defaultVolume<=1);assert.match(t.sourceUrl,/^https:\/\//);assert.match(t.licenseUrl,/^https:\/\//);assert.ok(t.author);assert.ok(t.modifications);assert.ok(readFileSync('ATTRIBUTIONS.md','utf8').includes(t.sourceUrl))}});
 test('example scenes reference available, unique tracks',()=>{for(const scene of examples){assert.ok(validLayers(scene.tracks));for(const t of scene.tracks)assert.ok(tracks.some(track=>track.id===t.trackId))}});
 test('search combines category, tags, case and accent normalization',()=>{assert.ok(searchTracks(tracks,'PAJAROS','Naturaleza').some(t=>t.id==='birds'));assert.ok(searchTracks(tracks,'CAFE','Interiores').some(t=>t.id==='coffee-shop'));assert.equal(searchTracks(tracks,'lluvia','Ciudad').length,0);assert.equal(searchTracks(tracks,'   ','Todos').length,tracks.length)});
 test('missing storage returns a safe silent default',()=>{const x=parseSaved(null);assert.deepEqual(x.scenes,[]);assert.equal(x.schemaVersion,1)});
@@ -36,15 +36,15 @@ test('new examples offer different narrative uses without removing old track IDs
  assert.ok(searchTracks(tracks,'persecucion','Acción').some(t=>t.id==='pursuit'));
 });
 
-test('the music addition is limited to six complete, attributed Incompetech tracks',()=>{
+test('the music addition is limited to eighteen complete, attributed Incompetech tracks',()=>{
  const selection=JSON.parse(readFileSync('docs/audio/incompetech-selection.json','utf8'));
- assert.equal(selection.length,6);
- assert.equal(tracks.filter(track=>track.playback==='stream').length,6);
+ assert.equal(selection.length,18);
+ assert.equal(tracks.filter(track=>track.playback==='stream').length,18);
  for(const entry of selection){
   const track=tracks.find(track=>track.id===entry.id)!;
   assert.equal(track.title,entry.title);
   assert.equal(track.duration,entry.duration);
-  assert.ok(track.duration>=190&&track.duration<470);
+  assert.ok(track.duration>=90&&track.duration<470);
   assert.equal(track.license,'CC BY 4.0');
   assert.equal(track.playback,'stream');
   assert.match(entry.isrc,/^USUAN[0-9]{7}$/);
@@ -52,4 +52,18 @@ test('the music addition is limited to six complete, attributed Incompetech trac
   assert.ok(entry.attribution.includes('Kevin MacLeod'));
   assert.ok(readFileSync('ATTRIBUTIONS.md','utf8').includes(entry.attribution));
  }
+});
+
+test('presets balance adventure, tension and everyday scenes with working tone filters',()=>{
+ assert.equal(examples.length,16);
+ assert.equal(new Set(examples.map(s=>s.id)).size,16);
+ assert.equal(scenesForTone('Todas').length,16);
+ for(const [tone,count] of [['Aventura',6],['Tensión',8],['Cotidiano',2]] as const){
+  const scenes=scenesForTone(tone);assert.equal(scenes.length,count);
+  assert.ok(scenes.every(s=>s.tone===tone));
+ }
+ for(const scene of scenesForTone('Aventura')){
+  assert.ok(scene.tracks.some(layer=>{const t=tracks.find(t=>t.id===layer.trackId)!;return t.category==='Aventura'||t.tags.includes('heroico')}),scene.name);
+ }
+ assert.ok(examples.slice(0,8).some(s=>s.tone==='Aventura'));
 });

@@ -62,6 +62,126 @@ Los archivos conservan sus licencias individuales. La licencia restrictiva del c
 - Archivo original: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Oppressive%20Gloom.mp3
 - Evidencia de licencia: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100885
 
+## The Britons (`km-the-britons`)
+
+- Autor: Kevin MacLeod (incompetech.com)
+- Fuente: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN2600004
+- Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Modificaciones: Re-encoded to stereo MP3, 44.1 kHz, 128 kbps; duration and musical structure retained. No loop edits or cuts.
+- Crédito: "The Britons" Kevin MacLeod (incompetech.com). Licensed under Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+- Archivo original: https://incompetech.com/music/royalty-free/mp3-royaltyfree/The%20Britons.mp3
+- Evidencia de licencia: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN2600004
+
+## Ascending the Vale (`km-ascending-the-vale`)
+
+- Autor: Kevin MacLeod (incompetech.com)
+- Fuente: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600064
+- Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Modificaciones: Re-encoded to stereo MP3, 44.1 kHz, 128 kbps; duration and musical structure retained. No loop edits or cuts.
+- Crédito: "Ascending the Vale" Kevin MacLeod (incompetech.com). Licensed under Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+- Archivo original: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Ascending%20the%20Vale.mp3
+- Evidencia de licencia: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600064
+
+## Magic Forest (`km-magic-forest`)
+
+- Autor: Kevin MacLeod (incompetech.com)
+- Fuente: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600044
+- Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Modificaciones: Re-encoded to stereo MP3, 44.1 kHz, 128 kbps; duration and musical structure retained. No loop edits or cuts.
+- Crédito: "Magic Forest" Kevin MacLeod (incompetech.com). Licensed under Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+- Archivo original: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Magic%20Forest.mp3
+- Evidencia de licencia: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600044
+
+## Hidden Past (`km-hidden-past`)
+
+- Autor: Kevin MacLeod (incompetech.com)
+- Fuente: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600030
+- Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Modificaciones: Re-encoded to stereo MP3, 44.1 kHz, 128 kbps; duration and musical structure retained. No loop edits or cuts.
+- Crédito: "Hidden Past" Kevin MacLeod (incompetech.com). Licensed under Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+- Archivo original: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Hidden%20Past.mp3
+- Evidencia de licencia: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600030
+
+## Lord of the Land (`km-lord-of-the-land`)
+
+- Autor: Kevin MacLeod (incompetech.com)
+- Fuente: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400022
+- Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Modificaciones: Re-encoded to stereo MP3, 44.1 kHz, 128 kbps; duration and musical structure retained. No loop edits or cuts.
+- Crédito: "Lord of the Land" Kevin MacLeod (incompetech.com). Licensed under Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+- Archivo original: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Lord%20of%20the%20Land.mp3
+- Evidencia de licencia: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400022
+
+## Teller of the Tales (`km-teller-of-the-tales`)
+
+- Autor: Kevin MacLeod (incompetech.com)
+- Fuente: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400020
+- Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Modificaciones: Re-encoded to stereo MP3, 44.1 kHz, 128 kbps; duration and musical structure retained. No loop edits or cuts.
+- Crédito: "Teller of the Tales" Kevin MacLeod (incompetech.com). Licensed under Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+- Archivo original: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Teller%20of%20the%20Tales.mp3
+- Evidencia de licencia: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400020
+
+## Heroic Age (`km-heroic-age`)
+
+- Autor: Kevin MacLeod (incompetech.com)
+- Fuente: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100848
+- Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Modificaciones: Re-encoded to stereo MP3, 44.1 kHz, 128 kbps; duration and musical structure retained. No loop edits or cuts.
+- Crédito: "Heroic Age" Kevin MacLeod (incompetech.com). Licensed under Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+- Archivo original: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Heroic%20Age.mp3
+- Evidencia de licencia: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100848
+
+## Five Armies (`km-five-armies`)
+
+- Autor: Kevin MacLeod (incompetech.com)
+- Fuente: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100875
+- Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Modificaciones: Re-encoded to stereo MP3, 44.1 kHz, 128 kbps; duration and musical structure retained. No loop edits or cuts.
+- Crédito: "Five Armies" Kevin MacLeod (incompetech.com). Licensed under Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+- Archivo original: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Five%20Armies.mp3
+- Evidencia de licencia: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100875
+
+## The Descent (`km-the-descent`)
+
+- Autor: Kevin MacLeod (incompetech.com)
+- Fuente: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200094
+- Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Modificaciones: Re-encoded to stereo MP3, 44.1 kHz, 128 kbps; duration and musical structure retained. No loop edits or cuts.
+- Crédito: "The Descent" Kevin MacLeod (incompetech.com). Licensed under Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+- Archivo original: https://incompetech.com/music/royalty-free/mp3-royaltyfree/The%20Descent.mp3
+- Evidencia de licencia: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200094
+
+## The Complex (`km-the-complex`)
+
+- Autor: Kevin MacLeod (incompetech.com)
+- Fuente: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300025
+- Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Modificaciones: Re-encoded to stereo MP3, 44.1 kHz, 128 kbps; duration and musical structure retained. No loop edits or cuts.
+- Crédito: "The Complex" Kevin MacLeod (incompetech.com). Licensed under Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+- Archivo original: https://incompetech.com/music/royalty-free/mp3-royaltyfree/The%20Complex.mp3
+- Evidencia de licencia: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300025
+
+## Rites (`km-rites`)
+
+- Autor: Kevin MacLeod (incompetech.com)
+- Fuente: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100722
+- Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Modificaciones: Re-encoded to stereo MP3, 44.1 kHz, 128 kbps; duration and musical structure retained. No loop edits or cuts.
+- Crédito: "Rites" Kevin MacLeod (incompetech.com). Licensed under Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+- Archivo original: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Rites.mp3
+- Evidencia de licencia: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100722
+
+## The Path of the Goblin King (`km-the-path-of-the-goblin-king`)
+
+- Autor: Kevin MacLeod (incompetech.com)
+- Fuente: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100873
+- Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Modificaciones: Re-encoded to stereo MP3, 44.1 kHz, 128 kbps; duration and musical structure retained. No loop edits or cuts.
+- Crédito: "The Path of the Goblin King" Kevin MacLeod (incompetech.com). Licensed under Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+- Archivo original: https://incompetech.com/music/royalty-free/mp3-royaltyfree/The%20Path%20of%20the%20Goblin%20King.mp3
+- Evidencia de licencia: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100873
+
 ## Presencia en la oscuridad (`presence`)
 
 - Autor: Music by Cleyton Kauffman — https://soundcloud.com/cleytonkauffman

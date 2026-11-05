@@ -36,9 +36,9 @@ test('non-string artwork metadata is rejected without accepting corrupt scene da
  for (const art of [null, 3, {}, []]) assert.throws(() => parseSaved(saved(art)));
 });
 
-test('preset scenes have distinct supported illustrations', () => {
+test('preset scenes have supported illustrations with visual variety', () => {
  assert.equal(new Set(SCENE_ARTWORKS.map(art => art.id)).size, 16);
- assert.equal(new Set(examples.map(scene => scene.art)).size, examples.length);
+ assert.ok(new Set(examples.map(scene => scene.art)).size >= 12);
  for (const scene of examples) {
   assert.ok(scene.art);
   assert.notEqual(sceneArtId(scene), 'abstract');

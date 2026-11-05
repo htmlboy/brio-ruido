@@ -2,19 +2,23 @@ import {useEffect,useRef,useState} from 'react';
 import {AudioLines,Search,Play,Pause,X,Volume2,Square,SlidersHorizontal,Bookmark,ArrowUpRight,Info,Trash2,RefreshCw,LoaderCircle,Download,Upload,Image as ImageIcon} from 'lucide-react';
 import catalogJson from './catalog.json';
 import {AudioEngine} from './audio';
-import {examples} from './scenes';
+import {examples,sceneTones,scenesForTone,type SceneTone} from './scenes';
 import {sceneArtId, type SceneArtId} from './sceneArt';
 import {SceneIllustration} from './components/SceneIllustration';
 import {SceneArtPicker} from './components/SceneArtPicker';
 import {LIMIT,parseSaved,searchTracks,type Track,type Layer,type Scene,type SavedData} from './model';
 const tracks=catalogJson as Track[];
-const categories=['Todos','Tensión','Horror','Acción','Música','Naturaleza','Clima','Agua','Ciudad','Interiores'];
+const categories=['Todos','Aventura','Tensión','Horror','Acción','Música','Naturaleza','Clima','Agua','Ciudad','Interiores'];
 const STORE='ruido:v1';
 type Status='loading'|'playing'|'stopped'|'error';
 type Selected=Layer&{status:Status};
 function readInitial(){try{return {data:parseSaved(localStorage.getItem(STORE)),error:''}}catch{return {data:parseSaved(null),error:'No podemos leer tus datos guardados. Puedes exportar una copia o restablecerlos; no los sobrescribiremos.'}}}
 const initial=readInitial();
 export default function App(){
+ const [sceneTone,setSceneTone]=useState<SceneTone>('Todas');
+ const [allScenes,setAllScenes]=useState(false);
+ const matchingScenes=scenesForTone(sceneTone);
+ const visibleScenes=allScenes?matchingScenes:matchingScenes.slice(0,8);
  const [showMixer,setShowMixer]=useState(false);
  const [chosenArt,setChosenArt]=useState<SceneArtId>('abstract');
  const [artSceneId,setArtSceneId]=useState<string|null>(null);
@@ -70,9 +74,11 @@ export default function App(){
    {storageError&&<div className="warning" role="alert">{storageError}<button onClick={download}>Exportar copia</button>{storageLocked&&<button onClick={()=>{setStorageLocked(false);setStorageError('')}}>Restablecer almacenamiento</button>}</div>}
    <section className="presets" aria-labelledby="presets-title">
     <div className="section-heading"><h1 id="presets-title">Escenas</h1><span>Un clic carga la mezcla · transición de 2 s</span></div>
-    <div className="preset-list">{examples.map(scene=><button key={scene.id} className={`preset ${activeScene===scene.id?'active':''}`} onClick={()=>loadScene(scene)} aria-label={`Cargar escena ${scene.name}`} aria-busy={preparing===scene.id}>
+    <div className="scene-tones" role="group" aria-label="Tono de las escenas">{sceneTones.map(tone=><button key={tone} aria-pressed={sceneTone===tone} onClick={()=>{setSceneTone(tone);setAllScenes(false)}}>{tone}</button>)}</div>
+    <div id="preset-list" className="preset-list">{visibleScenes.map(scene=><button key={scene.id} className={`preset ${activeScene===scene.id?'active':''}`} onClick={()=>loadScene(scene)} aria-label={`Cargar escena ${scene.name}`} aria-busy={preparing===scene.id}>
      <SceneIllustration art={sceneArtId(scene)} className="preset-art"/><span className="preset-content"><strong>{scene.name}</strong><small>{scene.description}</small></span><span className="preset-layers">{scene.tracks.length} pistas</span><span className="preset-action">{preparing===scene.id?<LoaderCircle size={17} className="spin"/>:activeScene===scene.id&&playing?<AudioLines size={18}/>:<Play size={16}/>}</span>
     </button>)}</div>
+    {matchingScenes.length>8&&<button className="more-scenes" aria-expanded={allScenes} aria-controls="preset-list" onClick={()=>setAllScenes(!allScenes)}>{allScenes?'Mostrar menos':`Ver las ${matchingScenes.length} escenas`}</button>}
    </section>
    <div className="workspace">
     <section className="library" aria-labelledby="library-title">

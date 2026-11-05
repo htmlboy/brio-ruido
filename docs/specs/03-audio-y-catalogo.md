@@ -46,6 +46,6 @@ Se comprobarán versiones estables actuales de Chrome, Firefox, Safari y Edge, a
 
 ## Selección musical completa
 
-Se añaden seis composiciones de Kevin MacLeod / Incompetech bajo CC BY 4.0; el catálogo activo pasa a 42 pistas. Los archivos completos se sirven con la aplicación y añaden unos 27,8 MiB, sin importar el catálogo entero ni usar almacenamiento externo. Son una selección editorial para rol, no la lista confirmada de la consola de referencia.
+Se incluyen 18 composiciones de Kevin MacLeod / Incompetech bajo CC BY 4.0; el catálogo activo pasa a 54 pistas. Los archivos completos se sirven con la aplicación y se comprimen a MP3 estéreo de 128 kbps, sin importar el catálogo entero ni usar almacenamiento externo. Son una selección editorial para rol, no la lista confirmada de la consola de referencia.
 
 Las pistas con `playback: 'stream'` usan elementos multimedia para evitar decodificar toda su duración en PCM. La preparación debe permanecer silenciosa, arrancar dentro del gesto del usuario, poder cancelarse y preservar la mezcla anterior si falla. Las pistas musicales compartidas continúan sin reiniciarse al cambiar de escena. Los archivos mantienen sus finales musicales originales; su audición y calidad de repetición siguen pendientes. Fuentes, límites y proceso en [MUSIC-SELECTION.md](../MUSIC-SELECTION.md).
