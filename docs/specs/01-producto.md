@@ -19,7 +19,7 @@ El caso principal es una partida presencial o una sesión en la que el usuario y
 ## MVP
 
 - Aplicación estática, inicialmente en español, publicada en GitHub Pages.
-- Biblioteca inicial curada de entre 20 y 30 pistas, sujeta a encontrar material adecuado y con licencias verificadas.
+- Biblioteca de 36 pistas con licencias documentadas; incluye tensión, horror y acción además de los ambientes cotidianos.
 - Categorías, búsqueda por nombre y etiquetas, y filtro por categoría.
 - Mezcla de hasta ocho pistas distintas simultáneas.
 - Reproducción en bucle, volumen por pista y volumen general.

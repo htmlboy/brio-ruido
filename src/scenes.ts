@@ -1,9 +1,76 @@
 import type {Scene} from './model';
-export const examples:Scene[]=[
-{id:'forest',name:'El bosque despierta',description:'Hojas, pájaros y un arroyo cercano.',art:'forest',tracks:[{trackId:'birds',volume:.48},{trackId:'stream',volume:.26},{trackId:'wind',volume:.16}]},
-{id:'tavern',name:'La última taberna',description:'Un refugio cálido al final del camino.',art:'tavern',tracks:[{trackId:'coffee-shop',volume:.38},{trackId:'fireplace',volume:.52},{trackId:'rain',volume:.18}]},
-{id:'storm-night',name:'Se acerca la tormenta',description:'El cielo tiene otros planes.',art:'storm',tracks:[{trackId:'rain',volume:.48},{trackId:'storm',volume:.32},{trackId:'gusts',volume:.2}]},
-{id:'harbor',name:'Puerto al anochecer',description:'Madera, sal y un horizonte abierto.',art:'sea',tracks:[{trackId:'waves',volume:.43},{trackId:'boat',volume:.27},{trackId:'wind',volume:.18}]},
-{id:'space',name:'A la deriva',description:'Un pulso tenue en el vacío.',art:'space',tracks:[{trackId:'engine',volume:.2},{trackId:'starlight',volume:.25},{trackId:'air-vent',volume:.16}]},
-{id:'night',name:'Antes del siguiente paso',description:'La noche guarda sus secretos.',art:'night',tracks:[{trackId:'summer-night',volume:.4},{trackId:'embers',volume:.2},{trackId:'fireplace',volume:.25}]}
+
+export const examples: Scene[] = [
+  {
+    id: 'investigation', name: 'Investigación',
+    description: 'Dron industrial · cavernas',
+    tracks: [
+      {trackId: 'dark-sequence', volume: .3},
+      {trackId: 'dungeon-air', volume: .36},
+      {trackId: 'radio', volume: .07},
+    ],
+  },
+  {
+    id: 'threat', name: 'Amenaza cercana',
+    description: 'Cuerdas · textura oscura · latido',
+    tracks: [
+      {trackId: 'presence', volume: .36},
+      {trackId: 'underground', volume: .26},
+      {trackId: 'heartbeat', volume: .22},
+    ],
+  },
+  {
+    id: 'chase', name: 'Persecución',
+    description: 'Ritmo a 120 BPM · calle · motor',
+    tracks: [
+      {trackId: 'pursuit', volume: .48},
+      {trackId: 'city', volume: .24},
+      {trackId: 'engine', volume: .14},
+    ],
+  },
+  {
+    id: 'combat', name: 'Combate',
+    description: 'Percusión · piano y coro',
+    tracks: [
+      {trackId: 'war-drums', volume: .46},
+      {trackId: 'dissonance', volume: .2},
+      {trackId: 'storm', volume: .14},
+    ],
+  },
+  {
+    id: 'catacombs', name: 'Catacumbas',
+    description: 'Viento espectral · cavernas',
+    tracks: [
+      {trackId: 'cave-resonance', volume: .34},
+      {trackId: 'dungeon-air', volume: .28},
+      {trackId: 'underground', volume: .2},
+    ],
+  },
+  {
+    id: 'space', name: 'Nave a la deriva',
+    description: 'Motor · interferencias · fondo hostil',
+    tracks: [
+      {trackId: 'engine', volume: .25},
+      {trackId: 'hostile', volume: .3},
+      {trackId: 'radio', volume: .17},
+    ],
+  },
+  {
+    id: 'tavern', name: 'Taberna',
+    description: 'Conversaciones · fuego · lluvia',
+    tracks: [
+      {trackId: 'coffee-shop', volume: .38},
+      {trackId: 'fireplace', volume: .52},
+      {trackId: 'rain', volume: .18},
+    ],
+  },
+  {
+    id: 'forest', name: 'Bosque',
+    description: 'Pájaros · arroyo · viento',
+    tracks: [
+      {trackId: 'birds', volume: .48},
+      {trackId: 'stream', volume: .26},
+      {trackId: 'wind', volume: .16},
+    ],
+  },
 ];

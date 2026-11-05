@@ -16,7 +16,7 @@ Valores iniciales propuestos:
 
 Los cambios de volumen usan rampas breves para evitar chasquidos. Una transición de escena interpola ganancias: las pistas compartidas continúan sin reiniciarse, las nuevas entran y las que desaparecen salen. El volumen general permanece igual. Interrumpir una transición parte de los niveles actuales y no provoca saltos.
 
-El límite de ocho pistas corresponde a la mezcla final. Durante un cambio normal pueden coexistir hasta dieciséis fuentes temporalmente. Si se interrumpen varias transiciones, pueden mantenerse colas adicionales hasta acabar sus fundidos; el catálogo inicial acota el total a veinticuatro fuentes. Al terminar o cancelar se liberan las fuentes que ya no hacen falta.
+El límite de ocho pistas corresponde a la mezcla final. Durante un cambio normal pueden coexistir hasta dieciséis fuentes temporalmente. Si se interrumpen varias transiciones, pueden mantenerse colas adicionales hasta acabar sus fundidos; el catálogo inicial acota el total al número de pistas del catálogo. Al terminar o cancelar se liberan las fuentes que ya no hacen falta.
 
 ## Preparación del material
 
@@ -26,15 +26,15 @@ Los niveles se ajustan para que las pistas tengan volúmenes recomendados útile
 
 ## Catálogo inicial
 
-Categorías propuestas: naturaleza, clima, agua, ciudad, interiores y música. Ejemplos: bosque, insectos nocturnos, lluvia suave, tormenta, viento, río, oleaje, tráfico lejano, mercado, cafetería, taberna y bases electrónicas discretas.
+Categorías: tensión, horror, acción, naturaleza, clima, agua, ciudad, interiores y música. Ejemplos: bosque, insectos nocturnos, lluvia suave, tormenta, viento, río, oleaje, tráfico lejano, mercado, cafetería, taberna y bases electrónicas discretas.
 
 La música es opcional y no necesita sincronizarse con otras pistas. El catálogo de lanzamiento debe contener variedad suficiente para preparar al menos tres escenas distintas.
 
 ## Fuentes y licencias
 
-Se priorizan CC0 y dominio público con procedencia verificable. Se puede incorporar CC BY si se cumplen las atribuciones y se documentan las modificaciones. Otras licencias requieren revisar sus condiciones antes de aceptar el archivo; no se presume que todo el contenido de una biblioteca sea reutilizable.
+Se priorizan CC0 y dominio público con procedencia verificable. Se puede incorporar CC BY si se cumplen las atribuciones y se documentan las modificaciones. OGA-BY 3.0 se acepta con atribución, enlace a la licencia y modificaciones documentadas. Otras licencias requieren revisar sus condiciones antes de aceptar el archivo; no se presume que todo el contenido de una biblioteca sea reutilizable.
 
-Wikimedia Commons y Freesound son posibles fuentes de selección, no dependencias de reproducción en directo. Los archivos aprobados se alojan con la aplicación. No se distribuyen audios de prueba sin una licencia conocida.
+OpenGameArt, Wikimedia Commons y Freesound son posibles fuentes de selección, no dependencias de reproducción en directo. Los archivos aprobados se alojan con la aplicación. No se distribuyen audios de prueba sin una licencia conocida.
 
 Cada pista incluye identificador estable, título, categoría, etiquetas, ruta local, autor, URL de origen, licencia y su URL, cambios realizados, volumen recomendado y puntos de bucle opcionales. Incluso en CC0 se conserva la procedencia. La aplicación ofrece créditos visibles y un registro Markdown de atribuciones acompaña a los archivos.
 

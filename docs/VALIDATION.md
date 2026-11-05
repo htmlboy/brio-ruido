@@ -39,3 +39,15 @@ El código y la interfaz originales se distribuyen con todos los derechos reserv
 Se solicita `navigator.audioSession.type = 'playback'` antes de activar Web Audio, cuando la API está disponible, para evitar la ruta de audio ambiental que puede quedar silenciada en iOS. También se permite reanudar el estado `interrupted` de Safari mediante un nuevo gesto del usuario. La API opcional puede fallar sin impedir la reproducción en otros navegadores.
 
 19 pruebas automáticas pasan, incluidas tres regresiones para el modo de sesión, la API no soportada y la recuperación de una interrupción. La confirmación auditiva en el dispositivo del usuario sigue pendiente.
+
+## Revisión funcional de diseño y ampliación dramática
+
+- Interfaz sin hero promocional, onda decorativa, ilustraciones de escenas ni fuentes externas. Escenas compactas y biblioteca en filas, con controles de reproducción y crédito por pista.
+- Transporte fijo con volumen general y parada. En móvil, panel de mezcla desplegable desde ese transporte.
+- 36 pistas: se mantienen las 24 anteriores y se añaden 10 composiciones de OpenGameArt y dos capas originales. Ocho escenas con usos narrativos diferenciados.
+- 21 pruebas automáticas: se añaden verificación de fuentes/licencias por archivo, cobertura de categorías dramáticas y continuidad de identificadores antiguos.
+- Los 12 archivos nuevos se decodifican con ffmpeg, contienen señal y no saturan individualmente. El catálogo ocupa aproximadamente 10,7 MiB comprimido. Las pruebas numéricas no sustituyen una escucha.
+- Los buffers del catálogo completo equivalen a 97 MiB a 24 kHz. El navegador puede decodificar a una frecuencia superior (por ejemplo, unos 194 MiB a 48 kHz); la caché mide los buffers reales y descarta los inactivos al superar su objetivo de 128 MiB. Las mezclas activas y transiciones tienen prioridad sobre ese objetivo. La revisión de memoria y escucha en dispositivos reales sigue pendiente.
+- El entorno sigue sin ofrecer el control de navegador requerido para una comprobación visual e interactiva real. La adaptación responsive, el contraste y la semántica se han revisado en el código; su comprobación en navegador queda pendiente.
+
+La selección inicial de Freesound no se distribuye: las descargas estaban bloqueadas. Las fuentes efectivamente utilizadas, sus autores, licencias, enlaces y huellas están documentadas en `docs/audio/dramatic-sources.json` y `src/catalog.json`.

@@ -1,8 +1,112 @@
 # Atribuciones de audio
 
-Grabaciones obtenidas de Blanket, revisión `bbc88ed3b9dfa8b21805d77286f3183abf88f36f`. Su código no se incorpora a Ruido. Las licencias de cada grabación son independientes del código de Blanket.
+Cada archivo conserva su licencia independiente de la licencia restrictiva del código. Las fuentes, modificaciones y huellas de los originales están documentadas en `src/catalog.json`.
 
-Las versiones CC BY se contrastaron con los enlaces originales. La procedencia y huella del archivo descargado se conservan en `src/catalog.json`. Los audios sintetizados originales se ofrecen bajo CC0.
+Las grabaciones iniciales proceden del catálogo de Blanket, en la revisión fijada en `scripts/blanket-revision.txt`. La ampliación dramática utiliza composiciones de OpenGameArt bajo CC0, CC BY 3.0 y OGA-BY 3.0, con evidencia por archivo en `docs/audio/dramatic-sources.json`. Las capas originales de Ruido se publican bajo CC0.
+
+## Presencia en la oscuridad (`presence`)
+
+- Autor: Music by Cleyton Kauffman — https://soundcloud.com/cleytonkauffman
+- Fuente: https://opengameart.org/content/ambient-horror-track-01
+- Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+- Modificaciones: Composición obtenida de OpenGameArt; conversión a mono, ajuste de nivel y unión de bucle con fundido cruzado.
+- Archivo utilizado: https://opengameart.org/sites/default/files/ambient_horror_track01.ogg
+- Evidencia de licencia: https://opengameart.org/content/ambient-horror-track-01
+
+## Páramo postapocalíptico (`hostile`)
+
+- Autor: Juhani Junkala (SubspaceAudio)
+- Fuente: https://opengameart.org/content/horror-atmosphere
+- Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+- Modificaciones: Composición obtenida de OpenGameArt; extracto, conversión a mono, ajuste de nivel y unión de bucle con fundido cruzado.
+- Archivo utilizado: https://opengameart.org/sites/default/files/Juhani%20Junkala%20-%20Post%20Apocalyptic%20Wastelands%20%5BLoop%20Ready%5D.ogg
+- Evidencia de licencia: https://opengameart.org/content/horror-atmosphere
+
+## Cavernas antiguas (`dungeon-air`)
+
+- Autor: congusbongus
+- Fuente: https://opengameart.org/content/ancient-caverns-horror-ambient-loop
+- Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+- Modificaciones: Composición obtenida de OpenGameArt; extracto, conversión a mono, ajuste de nivel y unión de bucle con fundido cruzado.
+- Archivo utilizado: https://opengameart.org/sites/default/files/caverns_0.ogg
+- Evidencia de licencia: https://opengameart.org/content/ancient-caverns-horror-ambient-loop
+
+## Presencia subterránea (`underground`)
+
+- Autor: Vinrax
+- Fuente: https://opengameart.org/content/horror-ambient
+- Licencia: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+- Modificaciones: Composición obtenida de OpenGameArt; conversión a mono, ajuste de nivel y unión de bucle con fundido cruzado.
+- Archivo utilizado: https://opengameart.org/sites/default/files/horror%20ambient_0.mp3
+- Evidencia de licencia: https://opengameart.org/content/horror-ambient
+
+## Viento espectral (`cave-resonance`)
+
+- Autor: Alexandr Zhelanov — https://soundcloud.com/alexandr-zhelanov
+- Fuente: https://opengameart.org/content/scary-ambient-wind
+- Licencia: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+- Modificaciones: Composición obtenida de OpenGameArt; extracto, conversión a mono, ajuste de nivel y unión de bucle con fundido cruzado.
+- Archivo utilizado: https://opengameart.org/sites/default/files/Scary%20Ambient%20Wind.mp3
+- Evidencia de licencia: https://opengameart.org/content/scary-ambient-wind
+
+## Tensión industrial (`dark-sequence`)
+
+- Autor: Lucas Calvo — MundoSound (mundosound.com)
+- Fuente: https://opengameart.org/content/dark-ambient-loop-13
+- Licencia: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+- Modificaciones: Composición obtenida de OpenGameArt; extracto, conversión a mono, ajuste de nivel y unión de bucle con fundido cruzado.
+- Archivo utilizado: https://opengameart.org/sites/default/files/Dark%20_Atmosphere13_Looped_OGG.ogg
+- Evidencia de licencia: https://opengameart.org/content/dark-ambient-loop-13
+
+## Piano y coro oscuro (`dissonance`)
+
+- Autor: SOUND AIRYLUVS by ISAo — https://airyluvs.com/
+- Fuente: https://opengameart.org/content/dark-horror-ambient-piano-choir
+- Licencia: [OGA-BY 3.0](https://opengameart.org/content/oga-by-30-faq)
+- Modificaciones: Composición obtenida de OpenGameArt; conversión a mono, ajuste de nivel y unión de bucle con fundido cruzado.
+- Archivo utilizado: https://opengameart.org/sites/default/files/dova_Eternal%20Terror_master_0.mp3
+- Evidencia de licencia: https://opengameart.org/content/dark-horror-ambient-piano-choir
+
+## Cementerio espacial (`suspense-bed`)
+
+- Autor: TinyWorlds
+- Fuente: https://opengameart.org/content/space-graveyard-ambient-track
+- Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+- Modificaciones: Composición obtenida de OpenGameArt; extracto, conversión a mono, ajuste de nivel y unión de bucle con fundido cruzado.
+- Archivo utilizado: https://opengameart.org/sites/default/files/space_graveyard_4.mp3
+- Evidencia de licencia: https://opengameart.org/content/space-graveyard-ambient-track
+
+## Tambores de guerra (`war-drums`)
+
+- Autor: William Hector
+- Fuente: https://opengameart.org/content/horde-war-drums-loop
+- Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+- Modificaciones: Composición obtenida de OpenGameArt; conversión a mono, ajuste de nivel y unión de bucle con fundido cruzado.
+- Archivo utilizado: https://opengameart.org/sites/default/files/horde_war_drums_by_william_hector.wav
+- Evidencia de licencia: https://opengameart.org/content/horde-war-drums-loop
+
+## Línea de combate (`battle-theme`)
+
+- Autor: FoxSynergy
+- Fuente: https://opengameart.org/content/battle-line
+- Licencia: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+- Modificaciones: Composición obtenida de OpenGameArt; conversión a mono, ajuste de nivel y unión de bucle con fundido cruzado.
+- Archivo utilizado: https://opengameart.org/sites/default/files/Battle%20Line%20v1_0.mp3
+- Evidencia de licencia: https://opengameart.org/content/battle-line
+
+## Latido acelerado (`heartbeat`)
+
+- Autor: Ruido
+- Fuente: https://github.com/htmlboy/ruido/blob/main/scripts/prepare-dramatic-audio.py
+- Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+- Modificaciones: Síntesis original por impulsos y osciladores, secuenciada sin muestras externas; ajuste de nivel y preparación del bucle.
+
+## Ritmo de persecución (`pursuit`)
+
+- Autor: Ruido
+- Fuente: https://github.com/htmlboy/ruido/blob/main/scripts/prepare-dramatic-audio.py
+- Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+- Modificaciones: Síntesis original por impulsos y osciladores, secuenciada sin muestras externas; ajuste de nivel y preparación del bucle.
 
 ## Pájaros del bosque (`birds`)
 

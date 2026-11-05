@@ -38,7 +38,7 @@ Salida verificable: AC-09 a AC-16 cubiertos.
 
 ## 5. Catálogo y acabado
 
-- Completar la selección de 20–30 pistas y al menos tres escenas de ejemplo.
+- Completar la selección de 36 pistas y al menos tres escenas de ejemplo.
 - Preparar bucles, niveles, tamaños, créditos y registro de atribuciones.
 - Validar memoria, máximo de fuentes, diez minutos de reproducción y compatibilidad.
 - Aplicar la identidad visual acordada y revisar accesibilidad.
