@@ -28,7 +28,7 @@ No se reproduce audio al abrir ni al recargar la aplicación.
 
 ## Escenas — RF-04
 
-Una escena guarda nombre, identificadores de pistas y volúmenes individuales. Todas las pistas incluidas se reproducen al cargarla. No guarda la posición del audio, el estado detenido de cada pista ni el volumen general.
+Una escena guarda nombre, identificadores de pistas, volúmenes individuales y un identificador opcional de ilustración. Todas las pistas incluidas se reproducen al cargarla. No guarda la posición del audio, el estado detenido de cada pista ni el volumen general.
 
 - «Guardar como escena» crea una escena desde la mezcla seleccionada, con nombre obligatorio de 1 a 60 caracteres tras eliminar espacios exteriores.
 - No se puede guardar una escena vacía.
@@ -51,3 +51,11 @@ Una pista que falla muestra un error y una acción para reintentar; no detiene l
 ## Accesibilidad — RF-06
 
 Todas las acciones funcionan con teclado, muestran foco visible y tienen nombres accesibles. Los deslizadores anuncian su pista y valor. Los cambios de carga o error se anuncian sin bombardear al lector de pantalla. Se busca contraste WCAG AA y se respeta la preferencia de movimiento reducido para animaciones visuales.
+
+## Identificación visual de escenas — RF-07
+
+Las ocho escenas de ejemplo muestran ilustraciones distintas. El repertorio de 16 ilustraciones está disponible al guardar una escena nueva y mediante «Cambiar ilustración» en las escenas guardadas. Cambiar la imagen no modifica la mezcla ni sus volúmenes ni inicia audio. Las imágenes ayudan a identificar; el nombre textual siempre permanece visible.
+
+El identificador `art` se conserva al guardar y exportar/importar. Escenas antiguas sin imagen y valores desconocidos usan una ilustración neutra, sin descartar la escena ni alterar sus pistas. Los identificadores desconocidos se conservan en los datos. El selector usa radios nativos y se puede manejar con teclado.
+
+En móvil, las escenas de ejemplo se recorren horizontalmente para mantener la biblioteca accesible. Las ilustraciones se incluyen con el código; no se cargan imágenes de terceros ni se aceptan URLs o archivos personalizados. Referencia: [SCENE-ART.md](../SCENE-ART.md).

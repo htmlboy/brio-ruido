@@ -27,6 +27,7 @@ El caso principal es una partida presencial o una sesión en la que el usuario y
 - Creación, actualización, carga y eliminación de escenas guardadas localmente.
 - Exportación e importación de escenas como copia JSON.
 - Escenas de ejemplo para empezar a explorar.
+- Ilustraciones para identificar escenas y repertorio de 16 imágenes para las escenas del usuario.
 - Información de fuentes y atribuciones accesible desde la aplicación.
 - Uso con teclado y diseño adaptable a escritorio y móvil.
 

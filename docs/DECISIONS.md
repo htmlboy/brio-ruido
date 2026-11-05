@@ -37,3 +37,11 @@ Fecha: 2026-11-05. Estado: configurado y verificado; pendiente activar la redire
 Ruido se publicará en `ruido.briorol.com`, con DNS gestionado en Cloudflare y alojamiento en GitHub Pages. No se migra el alojamiento. El CNAME previsto es `ruido` → `htmlboy.github.io`, inicialmente sin proxy.
 
 Los ajustes de DNS, dominio personalizado y las comprobaciones posteriores se documentan en [DOMAIN.md](DOMAIN.md). El CNAME, el dominio personalizado y el certificado se han verificado; la web y los 36 audios responden por HTTPS. Las escenas locales se trasladan mediante exportación/importación JSON al cambiar de origen.
+
+## D-009 — Ilustraciones como identificación de escenas
+
+Fecha: 2026-11-05. Estado: implementada.
+
+Se recuperan ilustraciones para reconocer escenas rápidamente, manteniendo la estructura funcional de biblioteca y mezcla. Las imágenes cumplen una función de identificación y no recuperan el hero ni la decoración de la primera versión. Las escenas del usuario pueden elegir y cambiar una imagen entre 16 SVG originales incluidos en la aplicación.
+
+El campo opcional `art` se conserva en el esquema v1. Las escenas antiguas y las imágenes desconocidas usan una previsualización neutra; los valores desconocidos se preservan en los datos. No se admite subir imágenes ni enlazarlas desde terceros. La selección usa radios nativos, etiquetas y foco visible. Referencia: [SCENE-ART.md](SCENE-ART.md).

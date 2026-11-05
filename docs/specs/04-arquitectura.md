@@ -43,6 +43,8 @@ type Track = {
 type Scene = {
   id: string;
   name: string;
+  description?: string;
+  art?: string;
   tracks: { trackId: string; volume: number }[];
 };
 

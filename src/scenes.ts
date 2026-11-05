@@ -2,7 +2,7 @@ import type {Scene} from './model';
 
 export const examples: Scene[] = [
   {
-    id: 'investigation', name: 'Investigación',
+    id: 'investigation', art: 'investigation', name: 'Investigación',
     description: 'Dron industrial · cavernas',
     tracks: [
       {trackId: 'dark-sequence', volume: .3},
@@ -11,7 +11,7 @@ export const examples: Scene[] = [
     ],
   },
   {
-    id: 'threat', name: 'Amenaza cercana',
+    id: 'threat', art: 'threat', name: 'Amenaza cercana',
     description: 'Cuerdas · textura oscura · latido',
     tracks: [
       {trackId: 'presence', volume: .36},
@@ -20,7 +20,7 @@ export const examples: Scene[] = [
     ],
   },
   {
-    id: 'chase', name: 'Persecución',
+    id: 'chase', art: 'city', name: 'Persecución',
     description: 'Ritmo a 120 BPM · calle · motor',
     tracks: [
       {trackId: 'pursuit', volume: .48},
@@ -29,7 +29,7 @@ export const examples: Scene[] = [
     ],
   },
   {
-    id: 'combat', name: 'Combate',
+    id: 'combat', art: 'battle', name: 'Combate',
     description: 'Percusión · piano y coro',
     tracks: [
       {trackId: 'war-drums', volume: .46},
@@ -38,7 +38,7 @@ export const examples: Scene[] = [
     ],
   },
   {
-    id: 'catacombs', name: 'Catacumbas',
+    id: 'catacombs', art: 'dungeon', name: 'Catacumbas',
     description: 'Viento espectral · cavernas',
     tracks: [
       {trackId: 'cave-resonance', volume: .34},
@@ -47,7 +47,7 @@ export const examples: Scene[] = [
     ],
   },
   {
-    id: 'space', name: 'Nave a la deriva',
+    id: 'space', art: 'space', name: 'Nave a la deriva',
     description: 'Motor · interferencias · fondo hostil',
     tracks: [
       {trackId: 'engine', volume: .25},
@@ -56,7 +56,7 @@ export const examples: Scene[] = [
     ],
   },
   {
-    id: 'tavern', name: 'Taberna',
+    id: 'tavern', art: 'tavern', name: 'Taberna',
     description: 'Conversaciones · fuego · lluvia',
     tracks: [
       {trackId: 'coffee-shop', volume: .38},
@@ -65,7 +65,7 @@ export const examples: Scene[] = [
     ],
   },
   {
-    id: 'forest', name: 'Bosque',
+    id: 'forest', art: 'forest', name: 'Bosque',
     description: 'Pájaros · arroyo · viento',
     tracks: [
       {trackId: 'birds', volume: .48},

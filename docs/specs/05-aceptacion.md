@@ -26,6 +26,16 @@ Estado: contrato inicial de validación del MVP.
 | AC-18 | Abrir desde `/ruido/` | Interfaz, audio y créditos cargan sin rutas rotas. |
 | AC-19 | Consultar una pista | Se puede acceder a su autor, fuente, licencia y modificaciones. |
 
+## Ilustraciones de escenas
+
+| ID | Caso | Resultado esperado |
+| --- | --- | --- |
+| AC-20 | Explorar escenas de ejemplo | Cada escena tiene una ilustración distinta y mantiene su nombre textual. |
+| AC-21 | Elegir imagen al guardar y exportar/importar | Se conserva el identificador de ilustración junto con las pistas y sus volúmenes. |
+| AC-22 | Abrir una escena antigua o con imagen desconocida | Se muestra una imagen neutra; la escena y sus pistas se conservan. |
+| AC-23 | Cambiar imagen de una escena existente | Solo cambia su ilustración; no se alteran pistas, volúmenes ni reproducción. |
+| AC-24 | Usar el selector con teclado | Se puede elegir mediante radios nativos con etiquetas y foco visibles. |
+
 ## Revisión de audio y dispositivo
 
 - Cada pista supera una escucha de tres bucles sin cortes o chasquidos perceptibles en la unión.

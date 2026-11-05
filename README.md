@@ -14,6 +14,7 @@ Primera versión publicada en **https://ruido.briorol.com/**. Las pruebas y la c
 
 - 36 pistas alojadas con la aplicación: grabaciones, composiciones de terceros y capas de síntesis original.
 - Categorías de tensión, horror y acción: percusión de guerra, cuerdas disonantes, piano y coro, drones y fondos postapocalípticos.
+- Ilustraciones para reconocer las escenas y 16 imágenes seleccionables para las mezclas guardadas.
 - Ocho escenas: investigación, amenaza cercana, persecución, combate, catacumbas, nave a la deriva, taberna y bosque. Mezclas de hasta ocho pistas.
 - Búsqueda, categorías, volumen por pista y volumen general.
 - Cambios de escena con fundido de dos segundos, manteniendo las pistas compartidas.
@@ -64,6 +65,7 @@ La revisión de Blanket está fijada en `scripts/blanket-revision.txt`; la proce
 8. [Revisión de diseño y biblioteca](docs/DESIGN-REVIEW.md)
 9. [Registro de decisiones](docs/DECISIONS.md)
 10. [Configuración de ruido.briorol.com](docs/DOMAIN.md)
+11. [Ilustraciones de escenas](docs/SCENE-ART.md)
 
 ## Licencia
 

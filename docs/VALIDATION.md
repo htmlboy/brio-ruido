@@ -61,3 +61,9 @@ El flujo [41988158509](https://github.com/htmlboy/ruido/actions/runs/41988158509
 El 2026-11-05 se verificó el CNAME público `ruido.briorol.com` → `htmlboy.github.io`, el dominio personalizado en GitHub Pages y el certificado aprobado. La portada devuelve HTTP 200 por HTTPS con validación TLS. Se comprobaron por HTTP HEAD 42 recursos, incluidos los 36 MP3, JavaScript, estilos, favicon y avisos de licencia.
 
 Pendiente activar **Enforce HTTPS**: la respuesta por HTTP aún es 200, sin redirección a HTTPS. Esto no sustituye una comprobación auditiva ni de interacción en navegador.
+
+## Ilustraciones y escenas personales
+
+28 pruebas automáticas pasan. Las siete comprobaciones nuevas cubren escenas antiguas, persistencia de ilustración en exportación/importación, identificadores desconocidos, metadatos corruptos, asignación de las ocho escenas, generación de los 16 SVG sin recursos externos y radios nativos con una única selección. La compilación de producción pasa.
+
+El repertorio se ha renderizado en una hoja de contacto y revisado visualmente. Esto verifica los dibujos y no equivale a una prueba de interacción o layout en un navegador real. La selección, edición, foco y carrusel móvil requieren esa revisión adicional. El audio y sus licencias no han cambiado.
