@@ -66,6 +66,7 @@ La revisión de Blanket está fijada en `scripts/blanket-revision.txt`; la proce
 9. [Registro de decisiones](docs/DECISIONS.md)
 10. [Configuración de ruido.briorol.com](docs/DOMAIN.md)
 11. [Ilustraciones de escenas](docs/SCENE-ART.md)
+12. [Importación de Incompetech](docs/INCOMPETECH-IMPORT.md)
 
 ## Licencia
 

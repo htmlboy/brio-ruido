@@ -43,3 +43,7 @@ Cada pista incluye identificador estable, título, categoría, etiquetas, ruta l
 La aplicación no descarga toda la biblioteca al abrir. Carga audio bajo demanda y reutiliza los buffers de la mezcla; una caché acotada libera buffers inactivos. Objetivo inicial: hasta 128 MiB de buffers decodificados retenidos, incluida la transición. El tamaño PCM se estima antes de aprobar el catálogo y las escenas de ejemplo.
 
 Se comprobarán versiones estables actuales de Chrome, Firefox, Safari y Edge, además de Safari en iOS y Chrome en Android. La suspensión en segundo plano depende del navegador y del sistema; no se promete reproducción en segundo plano ni con la pantalla bloqueada.
+
+## Ampliación mediante Incompetech
+
+Se dispone de un inventario oficial de 1.443 pistas con licencia declarada CC BY 4.0 y de un importador reanudable por ISRC. El inventario y el lote piloto no se consideran pistas publicadas en la aplicación. Los medios se preparan fuera de Git. Su publicación requiere un almacén de audio y verificar reproducción, CORS y memoria antes de modificar el catálogo activo. Detalle y estado en [INCOMPETECH-IMPORT.md](../INCOMPETECH-IMPORT.md).

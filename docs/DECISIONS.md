@@ -45,3 +45,11 @@ Fecha: 2026-11-05. Estado: implementada.
 Se recuperan ilustraciones para reconocer escenas rápidamente, manteniendo la estructura funcional de biblioteca y mezcla. Las imágenes cumplen una función de identificación y no recuperan el hero ni la decoración de la primera versión. Las escenas del usuario pueden elegir y cambiar una imagen entre 16 SVG originales incluidos en la aplicación.
 
 El campo opcional `art` se conserva en el esquema v1. Las escenas antiguas y las imágenes desconocidas usan una previsualización neutra; los valores desconocidos se preservan en los datos. No se admite subir imágenes ni enlazarlas desde terceros. La selección usa radios nativos, etiquetas y foco visible. Referencia: [SCENE-ART.md](SCENE-ART.md).
+
+## D-010 — Inventario e importación de música de Incompetech
+
+Fecha: 2026-11-05. Estado: importación preparada; publicación de medios pendiente.
+
+Se inventaría el catálogo oficial con licencia declarada CC BY 4.0 y créditos por pista, sin confundirlo con la selección no confirmada de Delta Green Audio Console. Se añade un importador por ISRC o catálogo completo, con recibos, verificación de duración, presupuesto de disco y medios locales excluidos de Git. El lote de prueba consta de seis temas completos.
+
+La biblioteca publicada sigue en 36 pistas. Un catálogo de aproximadamente 5 GB recodificado a 128 kbps requiere almacenamiento de medios separado y una estrategia de reproducción para música larga antes de incorporarse a la aplicación. Referencia: [INCOMPETECH-IMPORT.md](INCOMPETECH-IMPORT.md).
