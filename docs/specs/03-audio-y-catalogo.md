@@ -1,6 +1,6 @@
 # Audio y catálogo
 
-Estado: propuesta inicial para revisión.
+Estado: especificación vigente. Implementación publicada; comprobaciones manuales pendientes indicadas en [VALIDATION.md](../VALIDATION.md).
 
 ## Motor de reproducción
 

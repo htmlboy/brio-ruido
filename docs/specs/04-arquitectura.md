@@ -1,10 +1,10 @@
 # Arquitectura y datos
 
-Estado: propuesta técnica inicial.
+Estado: arquitectura implementada; decisiones y cambios en [DECISIONS.md](../DECISIONS.md).
 
 ## Plataforma
 
-Aplicación estática sin servidor, cuentas ni secretos. Propuesta: TypeScript, React y Vite, con despliegue de la compilación a GitHub Pages mediante GitHub Actions. Las versiones y dependencias se fijarán al iniciar la implementación.
+Aplicación estática sin servidor, cuentas ni secretos. TypeScript, React y Vite, con despliegue de la compilación a GitHub Pages mediante GitHub Actions. Las versiones exactas se fijan en `package-lock.json`.
 
 Los recursos deben funcionar bajo la ruta de proyecto `/ruido/` y bajo la raíz de un futuro dominio. No se usarán rutas absolutas que asuman estar en `/`. El MVP tiene una sola pantalla y no necesita un enrutador.
 
@@ -26,6 +26,7 @@ Los volúmenes se representan internamente entre 0 y 1. Los tiempos se expresan 
 type Track = {
   id: string;
   title: string;
+  description?: string;
   category: string;
   tags: string[];
   src: string;
@@ -35,8 +36,8 @@ type Track = {
   licenseUrl: string;
   modifications: string;
   defaultVolume: number;
-  loopStart?: number;
-  loopEnd?: number;
+  kind: "recorded" | "composition" | "synth";
+  duration: number;
 };
 
 type Scene = {
@@ -52,7 +53,7 @@ type SavedData = {
 };
 ```
 
-Las escenas de ejemplo se distribuyen por separado de los datos del usuario. Se validan identificadores únicos, límites de volumen, ausencia de pistas duplicadas y un máximo de ocho pistas por escena. Los puntos de bucle deben estar dentro de la duración decodificada y el final debe ser posterior al inicio.
+Las escenas de ejemplo se distribuyen por separado de los datos del usuario. Se validan identificadores únicos, límites de volumen, ausencia de pistas duplicadas y un máximo de ocho pistas por escena. Los archivos se preparan como bucles completos durante el procesado de audio; el motor repite el buffer completo.
 
 ## Concurrencia y fallos
 
@@ -64,4 +65,4 @@ La transición solo comienza cuando la escena de destino está preparada y valid
 
 No se incorporan analítica, publicidad ni cookies de seguimiento. El alojamiento recibe las solicitudes habituales de página y archivos. No se envían escenas a un servidor.
 
-El flujo de despliegue ejecuta validación de tipos, pruebas relevantes y compilación antes de publicar. La publicación efectiva y la configuración del repositorio se realizarán en una fase posterior; estos documentos no afirman que ya existan.
+El flujo de despliegue ejecuta validación de tipos, pruebas relevantes y compilación antes de publicar. El repositorio público es `htmlboy/ruido` y la URL actual es https://htmlboy.github.io/ruido/. El dominio propio está pendiente de configuración. Al cambiar de origen, las escenas locales se trasladan mediante exportación/importación JSON.

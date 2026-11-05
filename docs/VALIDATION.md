@@ -51,3 +51,7 @@ Se solicita `navigator.audioSession.type = 'playback'` antes de activar Web Audi
 - El entorno sigue sin ofrecer el control de navegador requerido para una comprobación visual e interactiva real. La adaptación responsive, el contraste y la semántica se han revisado en el código; su comprobación en navegador queda pendiente.
 
 La selección inicial de Freesound no se distribuye: las descargas estaban bloqueadas. Las fuentes efectivamente utilizadas, sus autores, licencias, enlaces y huellas están documentadas en `docs/audio/dramatic-sources.json` y `src/catalog.json`.
+
+## Publicación de la revisión del 5 de noviembre
+
+El flujo [41988158509](https://github.com/htmlboy/ruido/actions/runs/41988158509) completó pruebas, compilación y despliegue del commit `11a90b2`. Se comprobó por HTTP que el bundle público contiene la interfaz nueva y que los doce audios añadidos coinciden por SHA-256 con los archivos preparados. Esto no sustituye la revisión visual ni la escucha en dispositivo real.

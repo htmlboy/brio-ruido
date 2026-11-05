@@ -62,6 +62,7 @@ La revisión de Blanket está fijada en `scripts/blanket-revision.txt`; la proce
 6. [Plan de implementación](docs/specs/06-plan.md)
 7. [Decisiones y validación](docs/VALIDATION.md)
 8. [Revisión de diseño y biblioteca](docs/DESIGN-REVIEW.md)
+9. [Registro de decisiones](docs/DECISIONS.md)
 
 ## Licencia
 

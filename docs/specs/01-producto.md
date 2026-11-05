@@ -1,6 +1,6 @@
 # Producto y alcance
 
-Estado: propuesta inicial para revisión.
+Estado: especificación vigente. Implementación publicada; comprobaciones manuales pendientes indicadas en [VALIDATION.md](../VALIDATION.md).
 
 ## Propósito
 
@@ -49,8 +49,8 @@ En una prueba manual, una persona debe poder crear su primera mezcla sin instruc
 
 ## Decisiones pendientes
 
-- Identidad visual y tono gráfico.
-- Selección definitiva de sonidos y escenas de ejemplo.
-- Dominio o subdominio futuro; no condiciona el primer despliegue.
+- Validación visual e interacción en dispositivos reales; dirección visual definida en [DESIGN-REVIEW.md](../DESIGN-REVIEW.md).
+- Escucha de los bucles y escenas en dispositivos reales; catálogo actual de 36 pistas y ocho escenas.
+- Configuración del dominio que el usuario ha registrado; nombre y proveedor DNS pendientes de confirmar.
 
 Las decisiones pendientes no bloquean la estructura del producto ni el trabajo técnico inicial.

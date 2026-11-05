@@ -1,6 +1,15 @@
 # Plan de implementación
 
-Estado: pendiente de iniciar. El orden sigue dependencias; no representa trabajo ya realizado.
+Estado: fases de implementación 1–6 realizadas y primera versión publicada. La aceptación manual completa sigue pendiente. El detalle siguiente conserva la secuencia de implementación como referencia.
+
+## Próximas tareas
+
+- Confirmar dominio y proveedor DNS, configurar el dominio en Pages y verificar HTTPS y recursos.
+- Escucha real de las 36 pistas y sus uniones; revisar el equilibrio de las ocho escenas.
+- Validar diseño, teclado, lector de pantalla y reproducción en escritorio y móvil.
+- Comprobar memoria y continuidad de audio en sesiones prolongadas.
+
+Las pruebas automáticas, compilación y publicación de la revisión `11a90b2` han pasado. No se considera cerrada la validación manual del MVP.
 
 ## 1. Base del proyecto
 

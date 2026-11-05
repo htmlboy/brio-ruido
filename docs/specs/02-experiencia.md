@@ -1,10 +1,10 @@
 # Experiencia y requisitos funcionales
 
-Estado: propuesta inicial para revisión.
+Estado: especificación vigente. Implementación publicada; comprobaciones manuales pendientes indicadas en [VALIDATION.md](../VALIDATION.md).
 
 ## Pantalla principal
 
-La interfaz presenta biblioteca, mezcla activa y escenas guardadas. El volumen general y el botón «Parar todo» permanecen accesibles mientras se usa la mezcla. En móvil, las secciones pueden apilarse; los controles esenciales no deben depender de pasar el cursor.
+La interfaz presenta biblioteca, mezcla activa y escenas guardadas. El volumen general y el botón «Parar todo» permanecen accesibles mientras se usa la mezcla. En escritorio la biblioteca se muestra en filas junto a la mezcla. En móvil, el transporte permanece en la parte inferior y su botón «Mezcla» abre el panel de pistas. Los controles esenciales no dependen de pasar el cursor.
 
 ## Biblioteca — RF-01
 
