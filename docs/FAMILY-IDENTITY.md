@@ -19,3 +19,7 @@ At narrow widths, the wordmark and help button share the first header row and th
 ## Scope
 
 No changes to the audio engine, catalogue, saved-data schema, track IDs or scene definitions. The empty mixer omits the redundant unnamed-mix heading until a track is selected. Keep font and audio attributions with their respective licenses. Do not introduce external font or image requests.
+
+## Compact header sizing
+
+Ruido uses a 90 px wordmark on desktop and 76 px on mobile. The link target stays at least 44 px high. Library navigation fits on the same row above 360 px; narrower screens retain the two-row header. This reduces branding height without shrinking controls.
