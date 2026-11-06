@@ -76,3 +76,7 @@ La revisión de Blanket está fijada en `scripts/blanket-revision.txt`; la proce
 Código, documentación e interfaz originales: **todos los derechos reservados**. El repositorio público no concede permiso de reutilización, modificación, redistribución ni uso comercial. El uso personal de la web oficial está permitido. Consulta [LICENSE](LICENSE).
 
 Los audios y las dependencias conservan sus licencias respectivas; consulta [ATTRIBUTIONS.md](ATTRIBUTIONS.md). Las versiones del código distribuidas previamente bajo MIT conservan los permisos ya concedidos.
+
+## HTML público
+
+El build incluye la biblioteca inicial en el HTML servido y React hidrata sus controles. Los lectores sin JavaScript pueden consultar las pistas; la reproducción y el guardado requieren JavaScript. Las escenas y el volumen de cada navegador se restauran después de hidratar, antes de persistir cambios. Detalles y comprobaciones en [docs/STATIC-HTML.md](docs/STATIC-HTML.md).
