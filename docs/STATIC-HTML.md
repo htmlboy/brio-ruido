@@ -9,3 +9,5 @@ Las personas y herramientas que no ejecutan JavaScript pueden leer nombres, desc
 El bundle temporal de servidor se escribe en `.ssg/`, fuera de Git y del artefacto publicado. Solo `dist/` se publica. Los nombres de pistas, escenas y formatos guardados se mantienen.
 
 Validación: 41 pruebas pasan; HTML leído por HTTP con las 54 filas; navegador sin JavaScript; hidratación sin errores; reproducción y parada; datos previos de escenas/volumen conservados desde la primera escritura tras hidratar.
+
+Nota de publicación: los dos primeros despliegues agotaron el límite predeterminado de diez minutos de `actions/deploy-pages`. El workflow concede treinta minutos a la sincronización de Pages; no modifica el build, el contenido ni los permisos. La compilación y las pruebas terminaron correctamente en ambos intentos.
