@@ -76,6 +76,6 @@ Se usa el maestro independiente de Ruido, sin punto añadido, y Brío en un enla
 
 ## D-014 — Biblioteca en HTML estático
 
-Fecha: 2026-11-06. Estado: implementada y verificada, preparada para publicación.
+Fecha: 2026-11-06. Estado: publicada y verificada por HTTP sin JavaScript.
 
 El build renderiza la vista inicial usando los mismos componentes y React la hidrata en el navegador. Se retrasa la lectura de preferencias y escenas hasta después de hidratar, y el guardado espera a esa restauración. El HTML incluye las 54 pistas sin ejecutar JavaScript. El audio conserva su activación por gesto. Referencia: `STATIC-HTML.md`.
