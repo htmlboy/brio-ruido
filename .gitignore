@@ -23,3 +23,6 @@ scratch/
 # Python tooling caches
 __pycache__/
 *.py[cod]
+
+# Temporary server-rendering bundle
+.ssg/
