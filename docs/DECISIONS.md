@@ -73,3 +73,9 @@ Los créditos propios usan Javier U, el seudónimo elegido por el autor para sus
 Fecha: 2026-11-05. Estado: implementada; publicación mediante el PR #6.
 
 Se usa el maestro independiente de Ruido, sin punto añadido, y Brío en un enlace separado del pie. La herramienta comparte Plex, tonos cálidos y la familia de rojo con las otras webs. Conserva el fondo oscuro, las ilustraciones de escenas y la distribución de biblioteca y mezcla. Se eliminan marcos redundantes y se ajusta la cabecera móvil. Motor, catálogo, identificadores y guardado permanecen sin cambios. Referencia: [FAMILY-IDENTITY.md](FAMILY-IDENTITY.md).
+
+## D-014 — Biblioteca en HTML estático
+
+Fecha: 2026-11-06. Estado: implementada y verificada, preparada para publicación.
+
+El build renderiza la vista inicial usando los mismos componentes y React la hidrata en el navegador. Se retrasa la lectura de preferencias y escenas hasta después de hidratar, y el guardado espera a esa restauración. El HTML incluye las 54 pistas sin ejecutar JavaScript. El audio conserva su activación por gesto. Referencia: `STATIC-HTML.md`.

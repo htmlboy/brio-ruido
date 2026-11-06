@@ -13,8 +13,9 @@ const STORE='ruido:v1';
 type Status='loading'|'playing'|'stopped'|'error';
 type Selected=Layer&{status:Status};
 function readInitial(){try{return {data:parseSaved(localStorage.getItem(STORE)),error:''}}catch{return {data:parseSaved(null),error:'No podemos leer tus datos guardados. Puedes exportar una copia o restablecerlos; no los sobrescribiremos.'}}}
-const initial=readInitial();
+const initial={data:parseSaved(null),error:''};
 export default function App(){
+ const [storageReady,setStorageReady]=useState(false);
  const [sceneTone,setSceneTone]=useState<SceneTone>('Todas');
  const [allScenes,setAllScenes]=useState(false);
  const matchingScenes=scenesForTone(sceneTone);
@@ -29,7 +30,8 @@ export default function App(){
  const [modal,setModal]=useState<'save'|'art'|'credits'|'help'|'delete'|null>(null);const [sceneName,setSceneName]=useState('');const [deleteId,setDeleteId]=useState<string|null>(null);const [creditId,setCreditId]=useState<string|null>(null);
  const engineRef=useRef<AudioEngine|null>(null);if(!engineRef.current)engineRef.current=new AudioEngine(tracks,()=>setSuspended(true));const engine=engineRef.current;
  const generation=useRef(0);const operations=useRef(new Map<string,number>());const masterRef=useRef(master);masterRef.current=master;
- useEffect(()=>{if(storageLocked)return;try{const data:SavedData={schemaVersion:1,masterVolume:master,scenes};localStorage.setItem(STORE,JSON.stringify(data));setStorageError('')}catch{setStorageError('El navegador no permite guardar los cambios. La mezcla sigue funcionando.')}},[master,scenes,storageLocked]);
+ useEffect(()=>{const restored=readInitial();setMaster(restored.data.masterVolume);setScenes(restored.data.scenes);setStorageError(restored.error);setStorageLocked(!!restored.error);setStorageReady(true)},[]);
+ useEffect(()=>{if(!storageReady||storageLocked)return;try{const data:SavedData={schemaVersion:1,masterVolume:master,scenes};localStorage.setItem(STORE,JSON.stringify(data));setStorageError('')}catch{setStorageError('El navegador no permite guardar los cambios. La mezcla sigue funcionando.')}},[master,scenes,storageLocked,storageReady]);
  useEffect(()=>{if(!message)return;const t=setTimeout(()=>setMessage(''),6000);return()=>clearTimeout(t)},[message]);
  useEffect(()=>{const esc=(e:KeyboardEvent)=>{if(e.key==='Escape')setModal(null);if(e.key==='/'&&!['INPUT','TEXTAREA'].includes((e.target as HTMLElement)?.tagName)&&!modal){e.preventDefault();document.querySelector<HTMLInputElement>('[aria-label="Buscar sonidos"]')?.focus()}};window.addEventListener('keydown',esc);return()=>window.removeEventListener('keydown',esc)},[modal]);
  const visible=searchTracks(tracks,query,category);const playing=selected.filter(t=>t.status==='playing').length;
