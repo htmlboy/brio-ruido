@@ -28,9 +28,9 @@ Esta es una primera versión para revisión, no la declaración de que todos los
 
 ## Estado de publicación
 
-Primera versión desplegada en **https://htmlboy.github.io/ruido/** desde el repositorio público `htmlboy/ruido`.
+Primera versión desplegada en **https://htmlboy.github.io/ruido/** desde el repositorio público `htmlboy/brio-ruido`.
 
-GitHub Pages publica con origen GitHub Actions. El flujo [41929712441](https://github.com/htmlboy/ruido/actions/runs/41929712441) completó instalación, las 16 pruebas, compilación y despliegue del commit `9bd9faf`.
+GitHub Pages publica con origen GitHub Actions. El flujo [41929712441](https://github.com/htmlboy/brio-ruido/actions/runs/41929712441) completó instalación, las 16 pruebas, compilación y despliegue del commit `9bd9faf`.
 
 El código y la interfaz originales se distribuyen con todos los derechos reservados; los audios conservan sus licencias y se incluyen avisos de dependencias de terceros. Las limitaciones de validación manual indicadas arriba siguen pendientes.
 
@@ -54,7 +54,7 @@ La selección inicial de Freesound no se distribuye: las descargas estaban bloqu
 
 ## Publicación de la revisión del 5 de noviembre
 
-El flujo [41988158509](https://github.com/htmlboy/ruido/actions/runs/41988158509) completó pruebas, compilación y despliegue del commit `11a90b2`. Se comprobó por HTTP que el bundle público contiene la interfaz nueva y que los doce audios añadidos coinciden por SHA-256 con los archivos preparados. Esto no sustituye la revisión visual ni la escucha en dispositivo real.
+El flujo [41988158509](https://github.com/htmlboy/brio-ruido/actions/runs/41988158509) completó pruebas, compilación y despliegue del commit `11a90b2`. Se comprobó por HTTP que el bundle público contiene la interfaz nueva y que los doce audios añadidos coinciden por SHA-256 con los archivos preparados. Esto no sustituye la revisión visual ni la escucha en dispositivo real.
 
 ## Dominio propio verificado
 

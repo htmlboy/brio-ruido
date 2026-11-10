@@ -275,14 +275,14 @@ Los archivos conservan sus licencias individuales. La licencia restrictiva del c
 ## Latido acelerado (`heartbeat`)
 
 - Autor: Ruido
-- Fuente: https://github.com/htmlboy/ruido/blob/main/scripts/prepare-dramatic-audio.py
+- Fuente: https://github.com/htmlboy/brio-ruido/blob/main/scripts/prepare-dramatic-audio.py
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Modificaciones: Síntesis original por impulsos y osciladores, secuenciada sin muestras externas; ajuste de nivel y preparación del bucle.
 
 ## Ritmo de persecución (`pursuit`)
 
 - Autor: Ruido
-- Fuente: https://github.com/htmlboy/ruido/blob/main/scripts/prepare-dramatic-audio.py
+- Fuente: https://github.com/htmlboy/brio-ruido/blob/main/scripts/prepare-dramatic-audio.py
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Modificaciones: Síntesis original por impulsos y osciladores, secuenciada sin muestras externas; ajuste de nivel y preparación del bucle.
 
@@ -385,83 +385,83 @@ Los archivos conservan sus licencias individuales. La licencia restrictiva del c
 ## Llovizna (`soft-rain`)
 
 - Autor: Ruido
-- Fuente: https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py
+- Fuente: https://github.com/htmlboy/brio-ruido/blob/main/scripts/prepare-audio.py
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Modificaciones: Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.
 
 ## Lluvia en el tejado (`roof-rain`)
 
 - Autor: Ruido
-- Fuente: https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py
+- Fuente: https://github.com/htmlboy/brio-ruido/blob/main/scripts/prepare-audio.py
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Modificaciones: Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.
 
 ## Ráfagas de viento (`gusts`)
 
 - Autor: Ruido
-- Fuente: https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py
+- Fuente: https://github.com/htmlboy/brio-ruido/blob/main/scripts/prepare-audio.py
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Modificaciones: Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.
 
 ## Bajo el agua (`deep-water`)
 
 - Autor: Ruido
-- Fuente: https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py
+- Fuente: https://github.com/htmlboy/brio-ruido/blob/main/scripts/prepare-audio.py
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Modificaciones: Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.
 
 ## Mar en calma (`distant-sea`)
 
 - Autor: Ruido
-- Fuente: https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py
+- Fuente: https://github.com/htmlboy/brio-ruido/blob/main/scripts/prepare-audio.py
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Modificaciones: Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.
 
 ## Motor distante (`engine`)
 
 - Autor: Ruido
-- Fuente: https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py
+- Fuente: https://github.com/htmlboy/brio-ruido/blob/main/scripts/prepare-audio.py
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Modificaciones: Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.
 
 ## Ventilación (`air-vent`)
 
 - Autor: Ruido
-- Fuente: https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py
+- Fuente: https://github.com/htmlboy/brio-ruido/blob/main/scripts/prepare-audio.py
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Modificaciones: Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.
 
 ## Estática de radio (`radio`)
 
 - Autor: Ruido
-- Fuente: https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py
+- Fuente: https://github.com/htmlboy/brio-ruido/blob/main/scripts/prepare-audio.py
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Modificaciones: Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.
 
 ## Brasas (`embers`)
 
 - Autor: Ruido
-- Fuente: https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py
+- Fuente: https://github.com/htmlboy/brio-ruido/blob/main/scripts/prepare-audio.py
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Modificaciones: Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.
 
 ## Algo se acerca (`suspense`)
 
 - Autor: Ruido
-- Fuente: https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py
+- Fuente: https://github.com/htmlboy/brio-ruido/blob/main/scripts/prepare-audio.py
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Modificaciones: Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.
 
 ## Luz entre estrellas (`starlight`)
 
 - Autor: Ruido
-- Fuente: https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py
+- Fuente: https://github.com/htmlboy/brio-ruido/blob/main/scripts/prepare-audio.py
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Modificaciones: Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.
 
 ## Pulso electrónico (`pulse`)
 
 - Autor: Ruido
-- Fuente: https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py
+- Fuente: https://github.com/htmlboy/brio-ruido/blob/main/scripts/prepare-audio.py
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Modificaciones: Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.

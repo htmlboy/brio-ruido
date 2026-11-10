@@ -38,7 +38,7 @@ npm test
 npm run build
 ```
 
-La compilación estática queda en `dist/` y usa rutas relativas, compatibles con `/ruido/` y con un dominio propio. El flujo `.github/workflows/pages.yml` comprueba tipos, pruebas y compilación antes de desplegar a GitHub Pages.
+La compilación estática queda en `dist/` y usa rutas relativas, compatibles con `/brio-ruido/` y con un dominio propio. El flujo `.github/workflows/pages.yml` comprueba tipos, pruebas y compilación antes de desplegar a GitHub Pages.
 
 ## Audio y licencias
 

@@ -55,7 +55,7 @@ for id,title,description,category,tags,bpm,style,seconds in [
  ('heartbeat','Latido acelerado','Doble pulso grave. Para peligro cercano y cuenta atrás.','Tensión',['latido','corazón','peligro','cuenta atrás','amenaza'],96,'heart',40),
  ('pursuit','Ritmo de persecución','Percusión seca y secuencia menor a 120 BPM.','Acción',['persecución','combate','huida','ritmo','120 bpm'],120,'chase',32)]:
  duration=impulse_bed(id,seconds,bpm,style)
- new.append(dict(id=id,title=title,description=description,category=category,tags=tags,src=f'audio/{id}.mp3',author='Ruido',sourceUrl='https://github.com/htmlboy/ruido/blob/main/scripts/prepare-dramatic-audio.py',license='CC0 1.0',licenseUrl=CC0,modifications='Síntesis original por impulsos y osciladores, secuenciada sin muestras externas; ajuste de nivel y preparación del bucle.',defaultVolume=.35,kind='synth',duration=duration))
+ new.append(dict(id=id,title=title,description=description,category=category,tags=tags,src=f'audio/{id}.mp3',author='Ruido',sourceUrl='https://github.com/htmlboy/brio-ruido/blob/main/scripts/prepare-dramatic-audio.py',license='CC0 1.0',licenseUrl=CC0,modifications='Síntesis original por impulsos y osciladores, secuenciada sin muestras externas; ajuste de nivel y preparación del bucle.',defaultVolume=.35,kind='synth',duration=duration))
 ids={t['id'] for t in new}
 base=[t for t in json.loads((ROOT/'src/catalog.json').read_text()) if t['id'] not in ids]
 tracks=new+base

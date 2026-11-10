@@ -74,7 +74,7 @@ for id,title,notes in [('embers','Brasas',[110,164.81,220,261.63]),('suspense','
  synthetics.append((id,title,'Música',['base','electrónica','sintético','ambient'],x))
 for id,title,category,tags,x in synthetics:
  duration=write(id,x)
- tracks.append(dict(id=id,title=title,category=category,tags=tags,src=f'audio/{id}.mp3',author='Ruido',sourceUrl='https://github.com/htmlboy/ruido/blob/main/scripts/prepare-audio.py',license='CC0 1.0',licenseUrl=cc0,modifications='Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.',defaultVolume=.3 if category=='Música' else .4,kind='synth',duration=duration))
+ tracks.append(dict(id=id,title=title,category=category,tags=tags,src=f'audio/{id}.mp3',author='Ruido',sourceUrl='https://github.com/htmlboy/brio-ruido/blob/main/scripts/prepare-audio.py',license='CC0 1.0',licenseUrl=cc0,modifications='Síntesis original generada con el script de Ruido; ajuste de nivel y bucle con fundido cruzado.',defaultVolume=.3 if category=='Música' else .4,kind='synth',duration=duration))
 (ROOT/'src/catalog.json').write_text(json.dumps(tracks,ensure_ascii=False,indent=2)+'\n')
 lines=['# Atribuciones de audio','',f'Grabaciones obtenidas de Blanket, revisión `{revision}`. Su código no se incorpora a Ruido. Las licencias de cada grabación son independientes del código de Blanket.','', 'Las versiones CC BY se contrastaron con los enlaces originales. La procedencia y huella del archivo descargado se conservan en `src/catalog.json`. Los audios sintetizados originales se ofrecen bajo CC0.','']
 for track in tracks:
