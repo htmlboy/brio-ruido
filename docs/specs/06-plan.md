@@ -57,7 +57,7 @@ Salida verificable: catálogo validado y revisión manual documentada.
 ## 6. Publicación
 
 - Habilitar GitHub Pages y desplegar la compilación mediante Actions.
-- Verificar la URL pública, recursos bajo `/ruido/`, reproducción, escenas y créditos.
+- Verificar la URL pública, recursos bajo `/brio-ruido/`, reproducción, escenas y créditos.
 - Actualizar README con URL, instrucciones reales y limitaciones conocidas.
 
 Salida verificable: definición de terminado satisfecha.

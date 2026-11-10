@@ -23,7 +23,7 @@ Estado: contrato inicial de validación del MVP.
 | AC-15 | Bloquear almacenamiento | Se puede mezclar; se informa de que los cambios no se han guardado. |
 | AC-16 | Cargar datos corruptos o una escena incompatible | La aplicación abre, explica el problema y no borra ni reproduce parcialmente los datos afectados. |
 | AC-17 | Usar solo teclado | Todas las acciones son alcanzables y el foco es visible. |
-| AC-18 | Abrir desde `/ruido/` | Interfaz, audio y créditos cargan sin rutas rotas. |
+| AC-18 | Abrir desde `/brio-ruido/` | Interfaz, audio y créditos cargan sin rutas rotas. |
 | AC-19 | Consultar una pista | Se puede acceder a su autor, fuente, licencia y modificaciones. |
 
 ## Ilustraciones de escenas

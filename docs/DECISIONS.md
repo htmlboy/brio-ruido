@@ -8,7 +8,7 @@ Estado: vigente. React, TypeScript y Vite; audio con Web Audio API; escenas vers
 
 ## D-002 — Publicación en GitHub Pages
 
-Estado: vigente. Repositorio público `htmlboy/ruido`, publicación desde GitHub Actions. Pages se configura para publicar desde GitHub Actions. Los recursos usan rutas relativas para permitir pasar de `/ruido/` a un dominio propio.
+Estado: vigente. Repositorio público `htmlboy/brio-ruido`, publicación desde GitHub Actions. Pages se configura para publicar desde GitHub Actions. Los recursos usan rutas relativas para permitir pasar de `/ruido/` a un dominio propio.
 
 ## D-003 — Licencia restrictiva del código
 

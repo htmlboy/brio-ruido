@@ -5,7 +5,7 @@
 - Dominio del proyecto paraguas: `briorol.com`.
 - Dirección de Ruido: `https://ruido.briorol.com/`.
 - Gestión de DNS prevista: Cloudflare.
-- Alojamiento: GitHub Pages, repositorio `htmlboy/ruido`, publicación mediante GitHub Actions.
+- Alojamiento: GitHub Pages, repositorio `htmlboy/brio-ruido`, publicación mediante GitHub Actions.
 
 No se migra el alojamiento a Cloudflare. El subdominio apunta al alojamiento actual.
 
@@ -36,7 +36,7 @@ En Cloudflare, zona `briorol.com`, añadir este registro:
 
 El destino no lleva protocolo, ruta `/ruido/` ni barra final. Si ya existe un registro para el mismo nombre, revisar su propósito antes de sustituirlo; no crear registros en conflicto.
 
-En [GitHub → htmlboy/ruido → Settings → Pages](https://github.com/htmlboy/ruido/settings/pages):
+En [GitHub → htmlboy/brio-ruido → Settings → Pages](https://github.com/htmlboy/brio-ruido/settings/pages):
 
 1. En **Custom domain**, escribir `ruido.briorol.com` y guardar.
 2. Mantener **Source: GitHub Actions**.
